@@ -1,0 +1,121 @@
+---
+layout: default
+title: Homepage
+banner:
+  heading: A whole new world.
+  description: >-
+    Surfing teachings you to appreciate the finer things in life, to be present,
+    live in the moment and just breathe.
+  image_path: /uploads/blog-bg-12.jpg
+banner-style-indented: true
+text_blurb:
+  heading: A facinating heading about the site.
+  description: >-
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus minus
+    dolores ratione suscipit odit minima consectetur voluptates rerum,
+    laboriosam nisi ad dolore! Iure minima modi dicta eum maiores voluptatibus
+    est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis odio
+    vel, neque quibusdam dolor dolores, tempore illum, hic quod laborum
+    molestiae magnam blanditiis nostrum voluptates vero alias? Asperiores,
+    quibusdam veniam.
+  image_path: /uploads/blog-bg-13.jpg
+  button:
+    text: Read more
+  image:
+    image_path: /uploads/travel/travel-1.jpg
+    alt_text: A placeholder alt description
+itinerary:
+  heading: Upcoming travel destinations
+  image:
+    image_path: /uploads/blog-bg-14.jpg
+    overlay_text: Currently in...
+  destinations:
+    - location: Europe
+      date: 00 Month - 00 Month
+    - location: Australia
+      date: 00 Month - 00 Month
+    - location: Asia
+      date: 00 Month - 00 Month
+    - location: Europe
+      date: 00 Month - 00 Month
+blog:
+  heading: Recently on the blog
+  button:
+    text: Read more
+    url: '#'
+seo:
+  title:
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+---
+<!-- Header -->
+
+{% if page.banner-style-indented == true %}
+{% include hero-banner.html %}
+{% else %}
+{% include hero-banner-full.html %}
+{% endif %}
+
+<!-- About Blurb -->
+<section class="grid grid-cols-5 p-5p bg-sand">
+  <div class="col-span-2 bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full"></div>
+  <div class="col-span-3 pl-8">
+    <h2 class="max-w-lg py-16 -ml-[35%] blurb">{{page.text_blurb.heading}}</h2>
+    <p class="mb-16">{{page.text_blurb.description}}</p>
+    <a href="{{page.text_blurb.button.url}}" class="button mb-16">{{ page.text_blurb.button.text }}</a>
+  </div>
+</section>
+
+<!-- Upcoming Destinations -->
+<section class="p-10p border-t border-dark">
+  <h2 class="uppercase font-serif text-center text-5xl tracking-widest mb-16">
+    {{page.itinerary.heading}}
+  </h2>
+  <div class="grid grid-cols-4">
+    <div class="col-span-2 uppercase text-lg tracking-widest py-5p">
+      <ul class="border-t border-dark">
+        {% for item in page.itinerary.destinations %}
+          <li class="border-b border-dark py-8 flex justify-between">
+            <div class="justify-start">{{ item.location }}</div>
+            <div class="justify-end">{{ item.date }}</div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  <div class="col-span-2 relative bg-[url('{{page.itinerary.image.image_path}}')] ml-8">
+    <div><span class="font-serif text-7xl tracking-wide bg-medium absolute bottom-4 left-0">{{page.itinerary.image.overlay_text}}</span></div>
+  </div>
+</div></section>
+
+<!-- Recent Posts -->
+<section class="py-10p bg-sand">
+  <h2 class="text-center">{{page.blog.heading}}</h2>
+
+  <div class="grid grid-cols-4 gap-2">
+
+    {% assign featured_posts = site.posts | where: 'featured', true %}
+
+    {% for post in featured_posts limit: 3 %}
+
+      <div class="break-inside-avoid block mb-4 px-2
+       {% cycle 'col-span-1', 'col-span-2', 'col-span-1' %}" href="{{post.url}}">
+
+        <!-- Background image -->
+        <div class="bg-cover pb-[20vw]" style="background-image:url( '{{ post.featured_image }}' );"></div>
+
+        <!-- Text container  -->
+        <div>
+          <h3 class="text-2xl text-left font-sans my-4">
+            {{post.title}}
+          </h3>
+          <p class="leading-relaxed mb-4 line-clamp-3">
+            {{post.description}}</p>
+          <a href="{{post.url}}" class="button">{{ page.blog.button.text }}</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

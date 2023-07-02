@@ -1,0 +1,49 @@
+---
+layout: default 
+title: Shop
+banner: 
+  heading: Shop.
+  description: Nature teaches you to appreciate the finer things in life, to be present, live in the moment and just breath.
+  image_path: /uploads/blog-bg-17.jpg
+  image_focus: bottom
+banner-style-indented: false
+---
+
+<!-- Header -->
+{% if page.banner-style-indented == true %}
+{% include hero-banner.html %}
+{% else %}
+{% include hero-banner-full.html %}
+{% endif %}
+
+<!-- Explore Products -->
+<section class="p-5p max-w-screen-xl mx-auto" x-data="{ filter: 'all' }">
+
+	<h2 class="text-center text-4xl mb-1 editable"> Shop all products </h2> 
+
+	<div class="filter p-6 text-center"> 
+		<a href="#" class="shopify-button m-4" :class="{'active':filter === 'all'}" @click.prevent="filter = 'all'" >All</a>
+        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'travel-guide'}" @click.prevent="filter = 'travel-guide'">Travel Guides</a>
+        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'preset'}" @click.prevent="filter = 'preset'">Presets </a>
+	</div>
+
+	<div class="grid grid-cols-3 gap-4">
+
+	{% assign all_products = site.products-guides | concat: site.products-presets | sort: 'title'  %}
+
+	{% for product in all_products %}
+		
+		<div class="{{product.type | slugify }}" x-show="filter === 'all' || filter === '{{ product.type | slugify }}'">
+		{% include product-loop-item.html %}
+		</div>
+			
+	{% endfor %}
+
+	</div>
+
+</section>
+
+<!-- Banner -->
+<section class="min-h-70 bg-image-style flex items-center md:bg-fixed" style="background-image: url('/uploads/blog-bg-10.jpg');">
+	<p class="font-serif p-10p text-6xl text-light max-w-5xl editable">Once you get the taste of travel, you'll never be the same.</p>
+</section>

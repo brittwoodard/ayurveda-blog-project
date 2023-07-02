@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<!-- Header -->
+
+{% if page.banner-style-indented == true %}
+
+{% include hero-banner.html %}
+
+{% else %}
+
+{% include hero-banner-full.html %}
+
+{% endif %}
+
+<!-- Post -->
+<section>
+    <div class="flex justify-between items-center px-10p py-5p">
+        <div>
+            <p>by {{page.author}}</p>
+        </div>
+        <div>
+            <h2 class="mb-0 text-4xl">{{page.title}}</h2>
+        </div>
+        <div>
+            <p>{{page.date | date_to_string}}</p>
+        </div>
+    </div>
+    <hr class="border-t border-dark">
+    <div class="px-10p">
+        <h3 class="text-center uppercase text-xl mt-16 font-sans font-normal">{{page.subtitle}}</h3>
+        <div class="p-2 prose max-w-screen-lg mx-auto my-16 text-center">
+            {{content}}
+        </div>
+        {% include social-share.html %}
+    </div>
+</section>
+
+<!-- Related Posts -->
+<section class="bg-sand">
+{% include related-posts.html %}
+</section>

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<!-- Header -->
+<section class="grid grid-cols-2 items-end">
+    <div class="col-span-1 px-15p">
+        <h1 class="text-6xl">{{page.title}}</h1>
+        <h2 class="font-sans text-xl text-left tracking-widest mb-8">{{page.subtitle}}</h2>
+        <p class="mb-8">{{page.description}}</p>
+        {% include buy-button.html buy-button-id=page.buy-button-id %}
+    </div>
+    <div class="col-span-1 min-h-70" style="background-image:url('{{page.featured_image}}');"></div>
+</section>
+
+<!-- What's Inside -->
+<section class="p-5p">
+    <h2 class="text-4xl text-center editable">What's Inside</h2>
+    <div class="max-w-screen-xl mx-auto">
+        {% include thumbnail-gallery.html %}
+    </div>
+</section>
+
+<!-- Features -->
+<section class="grid grid-cols-2 p-5p">
+    <!-- Table of Contents -->
+    <div class="col-span-1">
+        <h2 class="text-4xl uppercase border-b border-dark pb-8 editable">Table of contents</h2>
+        <ul>
+            {% for item in site.data.guide-settings.table-of-contents %}
+            <li class="border-b border-dark my-8 flex justify-between">
+                <h3 class="font-sans text-xl font-normal">{{item.destination}}</h3>
+                <span>{{item.text}}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Features -->
+    <div class="col-span-1 pl-10p ul-parent-dots">
+        <h2 class="text-4xl editable">What's included</h2>
+        <p class="mb-4">{{page.features_html}}</p>
+    </div>
+</section>
+
+<!-- Related Products -->
+{% assign relevant-products = site.products-guides | where_exp:"product","product.url != page.url" %}
+
+{% include related-products.html relevant-products=relevant-products %}

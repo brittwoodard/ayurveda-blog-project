@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section class="p-5p">
+
+    <div class="max-w-screen-xl mx-auto">
+
+        <div class="p-2 mb-8 text-center">
+            <h2 class="font-serif text-4xl mb-2">{{page.title}}</h2>
+            <p>{{page.description}}</p>
+        </div>
+    
+        <div class="grid grid-cols-4">
+
+            {% for post in site.categories[page.category] limit:25 %}
+
+                {% include post-loop-item-square.html %}
+
+            {% endfor %}
+        </div>
+    </div>
+
+</section> 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    {% include head.html %}
+    
+</head>
+
+<body class="bg-medium">
+
+    {% include inline-styles.html %}
+    
+    {% include site-header.html %}
+
+    {{content}}
+
+    {% include site-footer.html %}
+
+    <!-- Alpine -->
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+    <!-- Javascript  -->
+    <script src="/main.js"></script>
+
+    <!-- Member Space -->
+    <script> var MemberSpace = window.MemberSpace || {"subdomain":"brittanys-web-dev"}; (function(d){ var s = d.createElement("script"); s.src = "https://cdn.memberspace.com/scripts/widgets.js"; var e = d.getElementsByTagName("script")[0]; e.parentNode.insertBefore(s,e); }(document)); </script>
+
+
+</body>
+
+</html>

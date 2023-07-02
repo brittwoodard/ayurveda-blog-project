@@ -1,0 +1,33 @@
+---
+layout: default
+title: Blog
+banner: 
+  heading: Blog.
+  description: Nature teaches you to appreciate the finer things in life, to be present, live in the moment and just breath.
+  image_path: /uploads/blog-bg-10.jpg
+banner-style-indented: true
+seo:
+  title:
+  description:
+  social_image:
+  twitter_card:
+  keywords:
+  hide-from-google: false
+---
+
+<!-- Header -->
+{% if page.banner-style-indented == true %}
+{% include hero-banner.html %}
+{% else %}
+{% include hero-banner-full.html %}
+{% endif %}
+
+<!-- Blog Loop -->
+<section class="py-10p max-w-screen-2xl mx-auto">
+  <h2 class="serif tracking-wide uppercase text-4xl text-center mb-16 editable">Recently on the blog</h2>
+  <div class="sm:columns-3">
+      {% for post in site.posts limit:12 %}
+          {% include post-loop-item-alternate.html %}
+      {% endfor %}
+  </div>
+</section>

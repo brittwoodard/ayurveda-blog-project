@@ -1,0 +1,136 @@
+/* ----------- Color Variables --------- */
+/* Looking for the color variables? They have been moved to the inline-styles file in the _includes folder, and pull variables from the site-settings folder in the _data folder.  */
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+
+@layer components {
+    .flex-center {
+      @apply flex justify-center items-center;
+    }
+  }
+
+/* ----------- CSS RESET --------- */
+@layer base {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: color 0.5s, background-color 0.5s, width 0.5s;
+}
+
+body {
+    font-weight: 300;
+}
+  
+img { max-width: 100%; height: auto; }
+
+section { 
+    position: relative; 
+}
+
+div {
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    @apply font-serif text-[13vw] mb-8 leading-[0.8];
+}
+
+h2, h3, h4 {
+    @apply uppercase font-serif mb-8 text-5xl tracking-widest
+}
+
+footer h2 {
+    @apply text-xl uppercase
+}
+
+.prose blockquote {
+    @apply font-serif text-center text-5xl tracking-wide not-italic border-none m-0 px-4 py-8;
+}
+
+.tag {
+
+    @apply uppercase text-zinc-600 text-xs tracking-wide;
+}
+
+.button {
+    @apply uppercase font-serif mb-4 inline-block border-b border-dark tracking-widest text-2xl
+}
+
+.button-2 {
+    @apply uppercase text-dark border border-dark px-8 py-4 inline-block mx-4
+}
+.button-2:hover {
+    @apply bg-dark text-white px-8 py-4
+}
+
+.shopify-button {
+    @apply uppercase bg-dark text-white px-8 py-4 inline-block border
+}
+
+.blurb {
+    font-size: 4.5rem;
+    line-height: 1;
+    font-family: Italiana, serif;
+    text-align: center;
+    text-transform: initial;
+}
+
+.bg-image-style {
+    @apply bg-no-repeat bg-cover bg-center
+}
+
+}
+
+.filter .active {
+    @apply bg-transparent text-dark border border-dark
+}
+
+.ul-parent-dots ul{
+    @apply list-disc mb-4
+}
+
+.ul-parent-dots li {
+    @apply mb-4
+}
+
+
+
+/* Memberspace popup styles */
+
+.MemberSpaceWidgetInternal__modal_modal ,
+.MemberSpaceWidgetInternal__modal_size-sm {
+
+    @apply bg-stone-300;
+}
+
+/* Members Area Styles */
+#memberspace-login-form input {
+    border: 2px solid blue;
+   }
+   
+   #memberspace-login-form label {
+       border: 2px solid yellow;
+   }
+   
+   /* Forgot Email / forgot password text */
+   #memberspace-login-form .MemberSpaceWidgetInternal__InputWrapper_labelRight {
+       color: green;
+   }
+   
+   
+   #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-primary {
+       color: red;
+   }
+   
+   #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-secondary {
+       color: blue;
+   }
+    
+   .MemberSpaceWidgetInternal__BrandedInterface_footer {display: none; }
