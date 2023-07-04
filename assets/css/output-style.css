@@ -1280,6 +1280,9 @@ footer h2 {
 .bg-\[url\(\'\'\)\] {
   background-image: url('');
 }
+.bg-\[url\(\'\/uploads\/ayurveda-blog-1\.jpg\'\)\] {
+  background-image: url('/uploads/ayurveda-blog-1.jpg');
+}
 .bg-\[length\:50vw\] {
   background-size: 50vw;
 }
