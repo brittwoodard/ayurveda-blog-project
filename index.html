@@ -17,20 +17,20 @@ text_blurb:
   image:
     image_path: /uploads/travel/travel-1.jpg
     alt_text: A placeholder alt description
-itinerary:
-  heading: Upcoming travel destinations
+calendar:
+  heading: Upcoming workshops
   image:
-    image_path: /uploads/blog-bg-14.jpg
-    overlay_text: Currently in...
-  destinations:
-    - location: Europe
-      date: 00 Month - 00 Month
-    - location: Australia
-      date: 00 Month - 00 Month
-    - location: Asia
-      date: 00 Month - 00 Month
-    - location: Europe
-      date: 00 Month - 00 Month
+    image_path: /uploads/ayurveda-blog-4.jpg
+    overlay_text: Up next...
+  events:
+    - title: Introduction to Ayurvedic Skincare
+      date: 03 August
+    - title: Ayurvedic Skincare Rituals
+      date: 11 August
+    - title: Ayurvedic Herbal Preparations for Skincare
+      date: 18 August
+    - title: Ayurvedic Lifestyle & Nutrition for Healthy Skin
+      date: 25 August
 blog:
   heading: Recently on the blog
   button:
@@ -62,24 +62,24 @@ seo:
   </div>
 </section>
 
-<!-- Upcoming Destinations -->
+<!-- Upcoming Workshops -->
 <section class="p-10p border-t border-dark">
   <h2 class="uppercase font-serif text-center text-5xl tracking-widest mb-16">
-    {{page.itinerary.heading}}
+    {{page.calendar.heading}}
   </h2>
   <div class="grid grid-cols-4">
     <div class="col-span-2 uppercase text-lg tracking-widest py-5p">
       <ul class="border-t border-dark">
-        {% for item in page.itinerary.destinations %}
-          <li class="border-b border-dark py-8 flex justify-between">
-            <div class="justify-start">{{ item.location }}</div>
-            <div class="justify-end">{{ item.date }}</div>
+        {% for item in page.calendar.events %}
+          <li class="border-b border-dark py-8 flex justify-between leading-[1.4em]">
+            <div class="justify-start">{{item.title}}</div>
+            <div class="justify-end">{{item.date}}</div>
           </li>
         {% endfor %}
       </ul>
     </div>
-  <div class="col-span-2 relative bg-[url('{{page.itinerary.image.image_path}}')] ml-8">
-    <div><span class="font-serif text-7xl tracking-wide bg-medium absolute bottom-4 left-0">{{page.itinerary.image.overlay_text}}</span></div>
+  <div class="col-span-2 relative bg-[url('{{page.calendar.image.image_path}}')] ml-8">
+    <div><span class="font-serif text-7xl tracking-wide bg-medium absolute bottom-4 left-0">{{page.calendar.image.overlay_text}}</span></div>
   </div>
 </div></section>
 
@@ -106,7 +106,7 @@ seo:
           </h3>
           <p class="leading-relaxed mb-4 line-clamp-3">
             {{post.description}}</p>
-          <a href="{{post.url}}" class="button">{{ page.blog.button.text }}</a>
+          <a href="{{post.url}}" class="button">{{page.blog.button.text}}</a>
         </div>
       </div>
     {% endfor %}
