@@ -8,16 +8,10 @@ banner:
   image_path: /uploads/ayurveda-blog-1.jpg
 banner-style-indented: true
 text_blurb:
-  heading: A facinating heading about the site.
+  heading: Who we are.
   description: >-
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus minus
-    dolores ratione suscipit odit minima consectetur voluptates rerum,
-    laboriosam nisi ad dolore! Iure minima modi dicta eum maiores voluptatibus
-    est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis odio
-    vel, neque quibusdam dolor dolores, tempore illum, hic quod laborum
-    molestiae magnam blanditiis nostrum voluptates vero alias? Asperiores,
-    quibusdam veniam.
-  image_path: /uploads/blog-bg-13.jpg
+    At our digital haven, a collective of passionate women comprising Ayurvedic doctors, practitioners, and technicians come together to share the profound knowledge of Ayurveda. Our aim is to empower you with practical insights and guidance, allowing you to seamlessly incorporate Ayurvedic principles into your modern lifestyle.
+  image_path: /uploads/ayurveda-blog-5.jpg
   button:
     text: Read more
   image:
@@ -62,7 +56,7 @@ seo:
 <section class="grid grid-cols-5 p-5p bg-sand">
   <div class="col-span-2 bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full"></div>
   <div class="col-span-3 pl-8">
-    <h2 class="max-w-lg py-16 -ml-[35%] blurb">{{page.text_blurb.heading}}</h2>
+    <h2 class="max-w-lg py-16 -ml-[35%] mt-10p blurb bg-medium">{{page.text_blurb.heading}}</h2>
     <p class="mb-16">{{page.text_blurb.description}}</p>
     <a href="{{page.text_blurb.button.url}}" class="button mb-16">{{ page.text_blurb.button.text }}</a>
   </div>
