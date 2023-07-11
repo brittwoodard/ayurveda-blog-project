@@ -12,6 +12,11 @@
     .flex-center {
       @apply flex justify-center items-center;
     }
+
+    .focus {
+        @apply focus:outline-none focus:ring-2 focus-visible:ring-accent
+
+    }
   }
 
 /* ----------- CSS RESET --------- */

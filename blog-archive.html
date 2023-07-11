@@ -2,28 +2,35 @@
 layout: default
 title: Blog Archive
 banner:
-  heading: A whole new world.
+  heading: Holistic living
   description: >-
-    Surfing teachings you to appreciate the finer things in life, to be present,
-    live in the moment and just breathe.
-  image_path: /uploads/blog-bg-10.jpg
+    Harmony is found in the dance of Ayurveda, where mind, body, and spirit unite in vibrant well-being.
+  image_path: /uploads/ayurveda-blog-7.jpg
   button:
-    text: Read more
+    text: 
     url: '#'
   image:
     image_path: /uploads/travel/travel-2.jpg
+banner-style-indented: true
+heading: Explore the blog
+description: Immerse yourself in a holistic collection of ancient wisdom and practical guidance. Explore the timeless principles of Ayurveda and the transformative power of yoga, seamlessly integrated into your modern lifestyle. Embrace balance, mindfulness, and natural remedies to unlock a healthier, more fulfilling way of living. Embark on a journey towards holistic well-being and discover the secrets of wellness harmoniously woven into your daily routines.
+
 ---
 <!-- Hero Banner -->
+{% if page.banner-style-indented == true %}
 {% include hero-banner.html %}
+{% else %}
+{% include hero-banner-full.html %}
+{% endif %}
 
 <!-- Blog Archive -->
 <section class="p-5p archive" x-data="{ search: '', posts: [...document.querySelectorAll('.post')] }" x-on:input="filterPosts">
   <div class="max-w-screen-lg mx-auto p-2 center mb-8 text-center">
-      <h2 class="font-serif text-4xl mb-2 editable"> Explore the blog </h2>
-      <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, quaerat necessitatibus? Praesentium fugit ex neque magni, possimus, iste itaque voluptatem id doloremque voluptas consequatur dolor cumque! Dolores possimus laboriosam adipisci.</p>
+      <h2 class="font-serif text-4xl mb-4">{{page.heading}}</h2>
+      <p class="mb-8">{{page.description}}</p>
  
       <div class="filter relative my-4 inline-block"> 
-          <input type="text" x-model="search" placeholder="Search..." class="p-4" />
+          <input type="text" x-model="search" placeholder="Search..." class="p-4 focus" />
       </div>
   </div>
 
