@@ -1,9 +1,15 @@
 table-of-contents: 
- - destination: Europe
-   text: Top 10 Places to Go
- - destination: Australia
-   text: Top 10 Places to Go
- - destination: Asia
-   text: Top 10 Places to Go
- - destination: Europe
-   text: Top 10 Places to Go
+ - title: Understanding Vata
+   page-number: 3
+ - title: Nurturing Your Nature
+   page-number: 8
+ - title: Self-Care Rituals
+   page-number: 19
+ - title: Nourishing Diets
+   page-number: 31
+ - title: Breathwork Practice
+   page-number: 39
+ - title: Mediation & Vata
+   page-number: 43
+ - title: Embracing Creativity
+   page-number: 47

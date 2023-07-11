@@ -7,7 +7,7 @@ layout: default
     <div class="col-span-1 px-15p">
         <h1 class="text-6xl">{{page.title}}</h1>
         <h2 class="font-sans text-xl text-left tracking-widest mb-8">{{page.subtitle}}</h2>
-        <p class="mb-8">{{page.description}}</p>
+        <p class="mb-8 editable">{{page.description_html}}</p>
         {% include buy-button.html buy-button-id=page.buy-button-id %}
     </div>
     <div class="col-span-1 min-h-70" style="background-image:url('{{page.featured_image}}');"></div>
@@ -15,7 +15,7 @@ layout: default
 
 <!-- What's Inside -->
 <section class="p-5p">
-    <h2 class="text-4xl text-center editable">What's Inside</h2>
+    <h2 class="text-4xl text-center">What's Inside</h2>
     <div class="max-w-screen-xl mx-auto">
         {% include thumbnail-gallery.html %}
     </div>
@@ -29,8 +29,8 @@ layout: default
         <ul>
             {% for item in site.data.guide-settings.table-of-contents %}
             <li class="border-b border-dark my-8 flex justify-between">
-                <h3 class="font-sans text-xl font-normal">{{item.destination}}</h3>
-                <span>{{item.text}}</span>
+                <h3 class="font-sans text-xl font-normal">{{item.title}}</h3>
+                <span class="text-xl">{{item.page-number}}</span>
             </li>
             {% endfor %}
         </ul>
@@ -39,7 +39,7 @@ layout: default
     <!-- Features -->
     <div class="col-span-1 pl-10p ul-parent-dots">
         <h2 class="text-4xl editable">What's included</h2>
-        <p class="mb-4">{{page.features_html}}</p>
+        <p class="mb-4 editable">{{page.features_html}}</p>
     </div>
 </section>
 
