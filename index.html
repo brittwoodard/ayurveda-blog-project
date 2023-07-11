@@ -67,8 +67,8 @@ seo:
   <h2 class="uppercase font-serif text-center text-5xl tracking-widest mb-16">
     {{page.calendar.heading}}
   </h2>
-  <div class="grid grid-cols-4">
-    <div class="col-span-2 uppercase text-lg tracking-widest py-5p">
+  <div class="grid grid-cols-2">
+    <div class="uppercase text-lg tracking-widest py-5p">
       <ul class="border-t border-dark">
         {% for item in page.calendar.events %}
           <li class="border-b border-dark py-8 flex justify-between leading-[1.4em]">
@@ -78,7 +78,7 @@ seo:
         {% endfor %}
       </ul>
     </div>
-  <div class="col-span-2 relative bg-[url('{{page.calendar.image.image_path}}')] ml-8">
+  <div class="relative bg-[url('{{page.calendar.image.image_path}}')] ml-8">
     <div><span class="font-serif text-7xl tracking-wide bg-medium absolute bottom-4 left-0">{{page.calendar.image.overlay_text}}</span></div>
   </div>
 </div></section>

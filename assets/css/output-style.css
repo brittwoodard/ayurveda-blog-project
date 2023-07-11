@@ -962,8 +962,9 @@ footer h2 {
 .m-4 {
   margin: 1rem;
 }
-.m-5p {
-  margin: 5%;
+.mx-10p {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .mx-auto {
   margin-left: auto;
@@ -981,9 +982,9 @@ footer h2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mx-10p {
-  margin-left: 10%;
-  margin-right: 10%;
+.mx-5p {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .-ml-15p {
   margin-left: -15%;
@@ -1024,14 +1025,14 @@ footer h2 {
 .mt-1 {
   margin-top: 0.25rem;
 }
+.mt-10p {
+  margin-top: 10%;
+}
 .mt-16 {
   margin-top: 4rem;
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.mt-10p {
-  margin-top: 10%;
 }
 .mt-5p {
   margin-top: 5%;
@@ -1107,12 +1108,6 @@ footer h2 {
 }
 .w-full {
   width: 100%;
-}
-.w-\[50\%\] {
-  width: 50%;
-}
-.w-\[75\%\] {
-  width: 75%;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -1278,44 +1273,26 @@ footer h2 {
   --tw-bg-opacity: 1;
   background-color: rgb(39 39 42 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/uploads\/blog-bg-10\.jpg\'\)\] {
-  background-image: url('/uploads/blog-bg-10.jpg');
-}
-.bg-\[url\(\'\/uploads\/blog-bg-12\.jpg\'\)\] {
-  background-image: url('/uploads/blog-bg-12.jpg');
-}
-.bg-\[url\(\'\/uploads\/blog-bg-13\.jpg\'\)\] {
-  background-image: url('/uploads/blog-bg-13.jpg');
-}
-.bg-\[url\(\'\/uploads\/blog-bg-14\.jpg\'\)\] {
-  background-image: url('/uploads/blog-bg-14.jpg');
-}
-.bg-\[url\(\'\/uploads\/blog-bg-17\.jpg\'\)\] {
-  background-image: url('/uploads/blog-bg-17.jpg');
-}
-.bg-\[url\(\'\{\{page\.itinerary\.image\.image_path\}\}\'\)\] {
-  background-image: url('{{page.itinerary.image.image_path}}');
-}
-.bg-\[url\(\'\'\)\] {
-  background-image: url('');
-}
 .bg-\[url\(\'\/uploads\/ayurveda-blog-1\.jpg\'\)\] {
   background-image: url('/uploads/ayurveda-blog-1.jpg');
-}
-.bg-\[url\(\'\/uploads\/ayurveda-blog-5\.jpg\'\)\] {
-  background-image: url('/uploads/ayurveda-blog-5.jpg');
-}
-.bg-\[url\(\'\{\{page\.calendar\.image\.image_path\}\}\'\)\] {
-  background-image: url('{{page.calendar.image.image_path}}');
 }
 .bg-\[url\(\'\/uploads\/ayurveda-blog-4\.jpg\'\)\] {
   background-image: url('/uploads/ayurveda-blog-4.jpg');
 }
-.bg-\[url\(\'\/uploads\/ayurveda-blog-2\.jpg\'\)\] {
-  background-image: url('/uploads/ayurveda-blog-2.jpg');
+.bg-\[url\(\'\/uploads\/ayurveda-blog-5\.jpg\'\)\] {
+  background-image: url('/uploads/ayurveda-blog-5.jpg');
 }
 .bg-\[url\(\'\/uploads\/ayurveda-blog-6\.jpg\'\)\] {
   background-image: url('/uploads/ayurveda-blog-6.jpg');
+}
+.bg-\[url\(\'\/uploads\/blog-bg-10\.jpg\'\)\] {
+  background-image: url('/uploads/blog-bg-10.jpg');
+}
+.bg-\[url\(\'\/uploads\/blog-bg-17\.jpg\'\)\] {
+  background-image: url('/uploads/blog-bg-17.jpg');
+}
+.bg-\[url\(\'\{\{page\.calendar\.image\.image_path\}\}\'\)\] {
+  background-image: url('{{page.calendar.image.image_path}}');
 }
 .bg-\[length\:50vw\] {
   background-size: 50vw;
@@ -1500,14 +1477,14 @@ footer h2 {
 .leading-\[0\.9\] {
   line-height: 0.9;
 }
+.leading-\[1\.4em\] {
+  line-height: 1.4em;
+}
 .leading-normal {
   line-height: 1.5;
 }
 .leading-relaxed {
   line-height: 1.625;
-}
-.leading-\[1\.4em\] {
-  line-height: 1.4em;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
@@ -1543,10 +1520,6 @@ footer h2 {
 }
 .underline-offset-4 {
   text-underline-offset: 4px;
-}
-.blur-sm {
-  --tw-blur: blur(4px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
