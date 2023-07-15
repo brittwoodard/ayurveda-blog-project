@@ -952,6 +952,9 @@ footer h2 {
 .top-\[50\%\] {
   top: 50%;
 }
+.-left-15p {
+  left: -15%;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -1076,9 +1079,6 @@ footer h2 {
 }
 .aspect-landscape {
   aspect-ratio: 3 / 2;
-}
-.aspect-portrait {
-  aspect-ratio: 4/5;
 }
 .aspect-square {
   aspect-ratio: 1 / 1;
@@ -1499,9 +1499,6 @@ footer h2 {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -1524,12 +1521,6 @@ footer h2 {
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
-}
-.underline {
-  text-decoration-line: underline;
-}
-.underline-offset-4 {
-  text-underline-offset: 4px;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
