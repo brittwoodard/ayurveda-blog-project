@@ -29,19 +29,19 @@ layout: default
 <!-- How To -->
 <section class="grid grid-cols-3 max-w-screen-xl mx-auto p-5p">
 	<div class="col-span-1 pr-16 self-center">
-		<h2 class="text-4xl">{{site.data.preset-settings.instructions.heading}}</h2>
-		<p>{{site.data.preset-settings.instructions.description_html}}</p>
+		<h2 class="text-4xl">{{site.data.course-settings.instructions.heading}}</h2>
+		<p>{{site.data.course-settings.instructions.description_html}}</p>
 	</div>
 	<div class="col-span-2">
 		{% include video.html
-		vimeo-id=site.data.preset-settings.instructions.vimeo-id %}</div>
+		vimeo-id=site.data.course-settings.instructions.vimeo-id %}</div>
 </section>
 
 <!-- FAQ -->
 <section class="p-10p">
 	<h2 class="text-4xl uppercase border-b border-dark pb-8">FAQ's</h2>
 	<ul>
-		{% for item in site.data.preset-settings.faq %}
+		{% for item in site.data.course-settings.faq %}
 		<li x-data="{ open: false }" class="border-b border-dark my-8">
 			<button @click="open = ! open" class="flex justify-between w-full">
 				<h3 class="font-sans text-xl font-normal">{{item.question}}</h3>
@@ -59,6 +59,6 @@ layout: default
 </section>
 
 <!-- Related Products -->
-{% assign relevant-products = site.products-presets | where_exp:"product","product.url != page.url" %}
+{% assign relevant-products = site.products-courses | where_exp:"product","product.url != page.url" %}
 
 {% include related-products.html relevant-products=relevant-products %}

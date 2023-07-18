@@ -5,9 +5,9 @@ collections:
   archives:
     output: true
     permalink: /:slug
-  products-presets:
+  products-courses:
     output: true
-    permalink: /shop/presets/:slug
+    permalink: /shop/courses/:slug
   products-guides:
     output: true
     permalink: /shop/guides/:slug

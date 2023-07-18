@@ -23,13 +23,13 @@ banner-style-indented: false
 
 	<div class="filter p-6 text-center"> 
 		<a href="#" class="shopify-button m-4" :class="{'active':filter === 'all'}" @click.prevent="filter = 'all'" >All</a>
-        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'travel-guide'}" @click.prevent="filter = 'travel-guide'">Travel Guides</a>
-        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'preset'}" @click.prevent="filter = 'preset'">Presets</a>
+        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'guide'}" @click.prevent="filter = 'guide'">Guides</a>
+        <a href="#" class="shopify-button m-4" :class="{'active':filter === 'course'}" @click.prevent="filter = 'course'">Courses</a>
 	</div>
 
 	<div class="grid grid-cols-3 gap-4">
 
-	{% assign all_products = site.products-guides | concat: site.products-presets | sort: 'title'  %}
+	{% assign all_products = site.products-guides | concat: site.products-courses | sort: 'title'  %}
 
 	{% for product in all_products %}
 		

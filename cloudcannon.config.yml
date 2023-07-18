@@ -21,9 +21,9 @@ collections_config:
   archives:
     output: true
     path: _archives
-  products-presets:
+  products-courses:
     output: true
-    path: _products-presets
+    path: _products-courses
   products-guides:
     output: true
     path: _products-guides
