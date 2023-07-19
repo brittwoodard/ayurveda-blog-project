@@ -339,10 +339,21 @@ h1 {
 h2, h3, h4 {
   margin-bottom: 2rem;
   font-family: Italiana, serif;
-  font-size: 3rem;
-  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+h3 {
+  margin-bottom: 1rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+p {
+  margin-bottom: 1rem;
 }
 footer h2 {
   font-size: 1.25rem;
@@ -911,6 +922,40 @@ footer h2 {
 .prose :where(.prose > :last-child):not(:where([class~="not-prose"] *)) {
   margin-bottom: 0;
 }
+.prose-stone {
+  --tw-prose-body: #44403c;
+  --tw-prose-headings: #1c1917;
+  --tw-prose-lead: #57534e;
+  --tw-prose-links: #1c1917;
+  --tw-prose-bold: #1c1917;
+  --tw-prose-counters: #78716c;
+  --tw-prose-bullets: #d6d3d1;
+  --tw-prose-hr: #e7e5e4;
+  --tw-prose-quotes: #1c1917;
+  --tw-prose-quote-borders: #e7e5e4;
+  --tw-prose-captions: #78716c;
+  --tw-prose-code: #1c1917;
+  --tw-prose-pre-code: #e7e5e4;
+  --tw-prose-pre-bg: #292524;
+  --tw-prose-th-borders: #d6d3d1;
+  --tw-prose-td-borders: #e7e5e4;
+  --tw-prose-invert-body: #d6d3d1;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #a8a29e;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #a8a29e;
+  --tw-prose-invert-bullets: #57534e;
+  --tw-prose-invert-hr: #44403c;
+  --tw-prose-invert-quotes: #f5f5f4;
+  --tw-prose-invert-quote-borders: #44403c;
+  --tw-prose-invert-captions: #a8a29e;
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d6d3d1;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #57534e;
+  --tw-prose-invert-td-borders: #44403c;
+}
 .focus:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1081,11 +1126,11 @@ footer h2 {
 .aspect-landscape {
   aspect-ratio: 3 / 2;
 }
+.aspect-portrait {
+  aspect-ratio: 4/5;
+}
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-.h-16 {
-  height: 4rem;
 }
 .h-full {
   height: 100%;
@@ -1114,9 +1159,6 @@ footer h2 {
 .w-10 {
   width: 2.5rem;
 }
-.w-16 {
-  width: 4rem;
-}
 .w-full {
   width: 100%;
 }
@@ -1126,6 +1168,9 @@ footer h2 {
 .max-w-lg {
   max-width: 32rem;
 }
+.max-w-none {
+  max-width: none;
+}
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -1134,6 +1179,9 @@ footer h2 {
 }
 .max-w-screen-xl {
   max-width: 1280px;
+}
+.shrink-0 {
+  flex-shrink: 0;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1196,6 +1244,9 @@ footer h2 {
 .gap-4 {
   gap: 1rem;
 }
+.gap-8 {
+  gap: 2rem;
+}
 .divide-x > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
   border-right-width: calc(1px * var(--tw-divide-x-reverse));
@@ -1219,9 +1270,6 @@ footer h2 {
 }
 .rounded {
   border-radius: 0.25rem;
-}
-.rounded-full {
-  border-radius: 9999px;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -1271,6 +1319,10 @@ footer h2 {
 .bg-stone-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 244 / var(--tw-bg-opacity));
+}
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;
@@ -1408,9 +1460,6 @@ footer h2 {
 .pr-16 {
   padding-right: 4rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
 .text-left {
   text-align: left;
 }
@@ -1500,6 +1549,9 @@ footer h2 {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -1522,6 +1574,12 @@ footer h2 {
 .text-zinc-600 {
   --tw-text-opacity: 1;
   color: rgb(82 82 91 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1633,6 +1691,12 @@ footer h2 {
   }
   .md\:col-span-9 {
     grid-column: span 9 / span 9;
+  }
+  .md\:flex {
+    display: flex;
+  }
+  .md\:w-96 {
+    width: 24rem;
   }
   .md\:max-w-2xl {
     max-width: 42rem;

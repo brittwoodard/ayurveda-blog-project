@@ -1,13 +1,39 @@
-instructions:
-  heading: How to use your courses
-  description_html: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore.
-  vimeo-id: 663318015
-faq: 
- - question: Europe
-   answer: Top 10 Places to Go
- - question: Australia
-   answer: Top 10 Places to Go
- - question: Asia
-   answer: Top 10 Places to Go
- - question: Europe
-   answer: Top 10 Places to Go
+features:
+  - heading: 12+ video lessons
+    description: Each lesson, approximately 90 minutes in length, delves deep into Ayurvedic approaches for women's wellbeing. Enjoy the convenience of viewing lessons at your own pace and in the comfort of your home. Experience a transformative journey as a new lesson is released weekly in the Member's Only Area.
+  - heading: 100+ Recipes
+    description: Available in PDF format, you can effortlessly print or view them on any device. Enjoy the convenience of both US and metric systems, with quick and easy preparation instructions and accompanying grocery lists. 
+  - heading: Practical Assignments
+    description: Dive into real-world applications and exercises, empowering you to integrate Ayurvedic principles effectively into your daily life. Immerse yourself in transformative experiences that will deepen your understanding and foster lasting results for hormonal balance and overall well-being.
+  - heading: Weekly PDF Guides
+    description: These beautiful workbooks accompany each lesson, enabling you to immerse yourself fully in the teachings without the need to take extensive notes. With interactive prompts and exercises, you can apply what you learn in real-time as you watch the recordings.
+  - heading: Weekly Live Q&A
+    description: Ayurveda acknowledges the uniqueness of each individual, and we're committed to addressing your specific concerns. Our Ayurvedic Doctor and teacher will be readily available to answer your personalized questions, ensuring you receive the support you need on your journey to hormonal balance. Watch the Q&A at your convenience in the Member's Only Area.
+  - heading: Member's Only Area
+    description: Access all weekly lessons, enriching PDF guides, and insightful Q&A recordings, carefully curated to support your learning journey. Enjoy the flexibility of revisiting the content at your convenience, as the Member's Only Area remains accessible for six months after the course concludes.
+vimeo-id: 663318015
+curriculum: 
+ - title: Introduction to Ayurveda and Hormonal Health
+   description: Explore key principles, uncover the intricate interplay between Ayurveda and hormones, and gain insights into fostering balance and well-being. This enlightening lesson sets the stage for your transformative exploration of hormonal harmony and holistic wellness.
+ - title: Understanding the Female Endocrine System
+   description: Unravel the intricacies of the female endocrine system in this enlightening lesson. Delve into the vital role it plays in hormonal health, and deepen your understanding of its impact on overall well-being. Gain valuable insights that will empower you to nurture hormonal balance and vitality through Ayurvedic practices and wisdom.
+ - title: Ayurvedic Principles for Balancing Hormones
+   description: Embark on an enlightening exploration of Ayurvedic principles tailored to balance hormones. Discover time-tested practices and remedies that align with your unique constitution. Empower yourself with personalized insights to promote hormonal harmony and embrace holistic well-being. Unleash the transformative potential of Ayurveda as you navigate the path to balance and vitality.
+ - title: Lifestyle and Daily Routines for Hormonal Balance
+   description: Unlock the power of lifestyle and daily routines in fostering hormonal balance. Discover Ayurvedic practices to harmonize your daily life with the natural rhythms of your body. Embrace transformative habits that nurture hormonal well-being, empowering you to thrive and lead a life of vitality and equilibrium.
+ - title: Nutrition and Dietary Recommendations for Hormonal Health
+   description: Explore the vital link between nutrition and hormonal health in this enlightening lesson. Discover Ayurvedic dietary recommendations tailored to balance your hormones and promote overall well-being. Embrace nourishing choices that resonate with your body's needs, empowering you to thrive with vitality and hormonal harmony.
+ - title: Herbal Remedies and Supplements for Hormone Balance
+   description: Delve into the world of herbal remedies and supplements, complementing Ayurvedic approaches for hormone balance. Uncover the power of nature's healing allies and how they synergize with Ayurvedic wisdom to nurture hormonal harmony. Empower yourself with knowledge to make informed choices that support your well-being on this transformative journey.
+ - title: Stress Management and Emotional Well-being for Hormonal Health
+   description: Explore the profound connection between stress, emotions, and hormonal health. Discover Ayurvedic techniques to manage stress and cultivate emotional well-being. Empower yourself with transformative practices that harmonize your hormones and elevate your overall vitality.
+ - title: Yoga and Exercise for Hormonal Balance
+   description: Unlock the transformative potential of yoga and exercise in achieving hormonal balance. Embrace Ayurvedic-influenced practices tailored to nurture your body and mind. Empower yourself with mindful movement and fitness, fostering harmonious hormonal well-being and vibrant health.
+ - title: Ayurvedic Detoxification and Cleansing for Hormonal Balance
+   description: Immerse yourself in Ayurvedic detoxification and cleansing practices, specifically designed for hormonal balance. Discover the transformative power of ancient purification techniques, nurturing your body's natural rhythm and promoting harmonious hormonal well-being. Empower yourself with cleansing rituals that elevate your vitality and embrace a renewed sense of balance and health.
+ - title: Sleep and Circadian Rhythms for Optimal Hormone Function
+   description: Explore the profound impact of sleep and circadian rhythms on hormonal function. Embrace Ayurvedic insights to optimize your sleep patterns, fostering harmonious hormonal balance. Empower yourself with transformative practices that elevate your well-being and awaken your body's innate healing potential.
+ - title: Environmental Factors and Toxin Reduction for Hormone Health
+   description: Delve into the crucial relationship between environmental factors, toxin reduction, and hormone health. Discover Ayurvedic practices to mitigate toxins and cultivate a balanced hormonal ecosystem. Empower yourself with transformative insights that promote overall well-being and elevate your health in harmony with your surroundings.
+ - title: Recap and Integration, Developing a Personalized Hormonal Balance Plan
+   description: Integrate the wealth of knowledge gained throughout the course in this transformative lesson. Craft a personalized hormonal balance plan, drawing from Ayurvedic principles and practical insights. Empower yourself with a tailored approach to nurture harmonious hormonal well-being and embrace a radiant, balanced life.

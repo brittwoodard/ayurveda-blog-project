@@ -7,51 +7,51 @@ layout: default
 	<div class="col-span-1 px-15p">
 		<h1 class="text-6xl">{{page.title}}</h1>
 		<h2 class="font-sans text-xl text-left tracking-widest mb-8">{{page.subtitle}}</h2>
-		<p class="mb-8">{{page.description}}</p>
+		<p class="mb-8">{{page.description_html}}</p>
 		<a href="#" class="shopify-button">Buy Now</a>
 	</div>
 	<div class="col-span-1 min-h-70" style="background-image:url('{{page.featured_image}}');"></div>
 </section>
 
-<!-- Before & After -->
-<section class="px-10p py-5p">
-    <div class="grid grid-cols-5 max-w-screen-xl mx-auto">
-        <div class="col-span-3 p-8">
-            {% include before-and-after-slider.html %}
-        </div>
-        <div class="col-span-2 p-8 self-center">
-            <h2 class="text-2xl uppercase"> Before & After </h2>
-            <p>{{page.before_after_description}}</p>
-        </div>
-    </div>
+<!-- Features -->
+<section class="p-10p">
+	<h2 class="text-center">What's Included</h2>
+	<div class="grid grid-cols-3 gap-8">
+		{% for item in site.data.course-settings.features %}
+		<div>
+			<h3 class="mt-4">{{item.heading}}</h3>
+			<p>{{item.description}}</p>
+		</div>
+		{% endfor %}
+	</div>
 </section>
 
 <!-- How To -->
 <section class="grid grid-cols-3 max-w-screen-xl mx-auto p-5p">
 	<div class="col-span-1 pr-16 self-center">
-		<h2 class="text-4xl">{{site.data.course-settings.instructions.heading}}</h2>
-		<p>{{site.data.course-settings.instructions.description_html}}</p>
+		<h2 class="text-4xl">Learn From Home</h2>
+		<p>Experience the convenience and flexibility of learning from the comfort of your home with our pre-recorded lessons. Enjoy the freedom to study at your own pace, review materials as needed, and fit your education seamlessly into your busy schedule. Embrace an immersive and personalized learning experience without the constraints of traditional classroom settings. Whether it's early mornings or late nights, our pre-recorded lessons allow you to unlock knowledge and growth on your terms.</p>
 	</div>
 	<div class="col-span-2">
 		{% include video.html
-		vimeo-id=site.data.course-settings.instructions.vimeo-id %}</div>
+		vimeo-id=site.data.course-settings.vimeo-id %}</div>
 </section>
 
 <!-- FAQ -->
 <section class="p-10p">
-	<h2 class="text-4xl uppercase border-b border-dark pb-8">FAQ's</h2>
+	<h2 class="text-4xl uppercase border-b border-dark pb-8">What You'll Learn</h2>
 	<ul>
-		{% for item in site.data.course-settings.faq %}
+		{% for item in site.data.course-settings.curriculum %}
 		<li x-data="{ open: false }" class="border-b border-dark my-8">
 			<button @click="open = ! open" class="flex justify-between w-full">
-				<h3 class="font-sans text-xl font-normal">{{item.question}}</h3>
+				<h3 class="font-sans text-xl font-normal">{{item.title}}</h3>
 				
 				<span><svg x-show="!open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
 				
 				<svg x-show="open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span>
 			</button>
 			<div x-show="open" @click.outside="open = false">
-				<p class="mb-8">{{item.answer}}</p>
+				<p class="mb-8">{{item.description}}</p>
 			</div>
 		</li>
 		{% endfor %}
