@@ -18,13 +18,13 @@ layout: default
 <section>
     <div class="flex justify-between items-center px-10p py-5p">
         <div>
-            <p>by {{page.author}}</p>
+            <p class="mb-0">{{page.date | date_to_string}}</p>
         </div>
         <div>
             <h2 class="mb-0 text-4xl">{{page.title}}</h2>
         </div>
         <div>
-            <p>{{page.date | date_to_string}}</p>
+            <p class="mb-0">by {{page.author}}</p>
         </div>
     </div>
     <hr class="border-t border-dark">

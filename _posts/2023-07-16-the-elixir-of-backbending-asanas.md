@@ -5,10 +5,10 @@ description: Explore the Ayurvedic significance of back-bending asanas, unlockin
 author: Brittany Woodard
 featured: true
 categories: [yoga]
-featured_image: /uploads/travel/travel-6.jpg
+featured_image: /uploads/ayurveda-blog-1.jpg
 banner: 
-  image_path: /uploads/travel/travel-6.jpg
-  image_focus: 
+  image_path: /uploads/ayurveda-blog-1.jpg
+  image_focus: center
 banner-style-indented: false
 seo: 
     title: The Elixir of Back-Bending Asanas
