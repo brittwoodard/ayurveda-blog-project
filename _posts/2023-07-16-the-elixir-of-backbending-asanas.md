@@ -32,14 +32,14 @@ Back-Bending Asanas and Spinal Health
 
 In Ayurveda, the spine is considered the physical and energetic pillar of the body, housing the central nervous system and the subtle channels of energy known as nadis. By incorporating back-bending asanas into our yoga practice, we can invigorate the spine, promoting flexibility, strength, and alignment. Regular practice of these asanas can be especially beneficial for individuals with Vata or Kapha dosha imbalances.
 
-    Bhujangasana (Cobra Pose)
-    Bhujangasana stimulates the heart and lung meridians, enhancing blood circulation and oxygenation. It also helps alleviate lower back pain and strengthens the abdominal muscles, promoting better digestion. From an Ayurvedic standpoint, this asana targets the Manipura chakra, associated with personal power and transformation, fostering a sense of confidence and willpower.
+Bhujangasana (Cobra Pose)
+Bhujangasana stimulates the heart and lung meridians, enhancing blood circulation and oxygenation. It also helps alleviate lower back pain and strengthens the abdominal muscles, promoting better digestion. From an Ayurvedic standpoint, this asana targets the Manipura chakra, associated with personal power and transformation, fostering a sense of confidence and willpower.
 
-    Ustrasana (Camel Pose)
-    Ustrasana opens up the chest and stretches the entire front of the body, stimulating the Anahata chakra, the center of love and compassion. This asana releases tension in the shoulders and neck, which are common areas for Vata accumulation. Ustrasana also stimulates the digestive fire (Agni), aiding in the elimination of toxins and promoting better metabolism.
+Ustrasana (Camel Pose)
+Ustrasana opens up the chest and stretches the entire front of the body, stimulating the Anahata chakra, the center of love and compassion. This asana releases tension in the shoulders and neck, which are common areas for Vata accumulation. Ustrasana also stimulates the digestive fire (Agni), aiding in the elimination of toxins and promoting better metabolism.
 
-    Dhanurasana (Bow Pose)
-    Dhanurasana stretches the entire front of the body, including the abdomen, chest, and thighs. It activates the Swadhisthana chakra, which governs creativity and emotional balance. This asana is particularly useful for balancing excess Pitta dosha, as it releases built-up heat in the body and calms the mind.
+Dhanurasana (Bow Pose)
+Dhanurasana stretches the entire front of the body, including the abdomen, chest, and thighs. It activates the Swadhisthana chakra, which governs creativity and emotional balance. This asana is particularly useful for balancing excess Pitta dosha, as it releases built-up heat in the body and calms the mind.
 
 Energetic Benefits of Back-Bending Asanas
 
@@ -51,11 +51,11 @@ Ayurvedic Dosha Considerations
 
 According to Ayurveda, each individual possesses a unique combination of the three doshas – Vata, Pitta, and Kapha – which influence their physical and psychological characteristics. Understanding one's dominant dosha can help tailor the yoga practice to suit specific needs and imbalances.
 
-    Vata Dosha: Those with a dominant Vata constitution tend to have a slender frame, experience dryness, and are prone to anxiety and instability. Back-bending asanas can be grounding and stabilizing for Vata individuals, helping to reduce nervous tension and promote relaxation.
+Vata Dosha: Those with a dominant Vata constitution tend to have a slender frame, experience dryness, and are prone to anxiety and instability. Back-bending asanas can be grounding and stabilizing for Vata individuals, helping to reduce nervous tension and promote relaxation.
 
-    Pitta Dosha: Pitta-dominant individuals are usually of medium build and have strong digestion. However, they can be prone to anger, irritability, and inflammation. Cooling back-bending asanas can help balance excess heat and cultivate a sense of surrender and humility.
+Pitta Dosha: Pitta-dominant individuals are usually of medium build and have strong digestion. However, they can be prone to anger, irritability, and inflammation. Cooling back-bending asanas can help balance excess heat and cultivate a sense of surrender and humility.
 
-    Kapha Dosha: Kapha individuals typically have a sturdy build, and they may struggle with lethargy and stagnation. Dynamic and invigorating back-bending asanas can stimulate their energy levels and boost enthusiasm.
+Kapha Dosha: Kapha individuals typically have a sturdy build, and they may struggle with lethargy and stagnation. Dynamic and invigorating back-bending asanas can stimulate their energy levels and boost enthusiasm.
 
 Precautions and Modifications
 
