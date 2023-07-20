@@ -10,6 +10,8 @@ categories:
     - yoga
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
+    heading: Elixir of Back-Bending
+    description: Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
 banner-style-indented: false
