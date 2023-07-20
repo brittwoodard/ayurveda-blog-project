@@ -6,6 +6,10 @@ author: Brittany Woodard
 featured: true
 categories: [yoga]
 featured_image: /uploads/travel/travel-6.jpg
+banner: 
+  image_path: /uploads/travel/travel-6.jpg
+  image_focus: 
+banner-style-indented: false
 seo: 
     title: The Elixir of Back-Bending Asanas
     description: Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
