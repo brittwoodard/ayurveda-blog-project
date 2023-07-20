@@ -9,11 +9,10 @@ categories:
     - nutrition
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
-    heading: Why Green Juice isn't a Superfood
+    heading: Fasting Through an Ayurvedic Lens
     description: Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
-banner-style-indented: false
 seo:
     title: Fasting Through an Ayurvedic Lens
     description: >-
@@ -81,6 +80,5 @@ If you are new to fasting, start with gentle and shorter fasting periods. Allow 
 Stay Hydrated
 
 Regardless of the fasting method, ensure you stay well-hydrated by drinking plenty of water and herbal teas throughout the fasting period.
-
 
 Fasting is a profound practice that holds great potential for transformation when approached through the lens of Ayurveda. Embracing fasting as a holistic tool for detoxification, rejuvenation, and dosha balance can lead to enhanced physical, mental, and spiritual well-being. By understanding your dosha constitution and following Ayurvedic guidelines, you can embark on a safe and enriching fasting journey, unlocking the vast benefits it offers for optimal health and vitality.

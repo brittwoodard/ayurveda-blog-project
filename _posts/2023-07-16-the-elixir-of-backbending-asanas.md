@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Elixir of Back-Bending Asanas
+title: Balancing Doshas Through Back-Bends
 description: >-
     Explore the Ayurvedic significance of back-bending asanas, unlocking
     vitality and spinal health through yoga's ancient wisdom.
@@ -10,13 +10,12 @@ categories:
     - yoga
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
-    heading: Elixir of Back-Bending
+    heading: Balancing Doshas Through Back-Bends
     description: Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
-banner-style-indented: false
 seo:
-    title: The Elixir of Back-Bending Asanas
+    title: Balancing Doshas Through Back-Bending Asanas
     description: >-
         Explore the Ayurvedic significance of back-bending asanas, unlocking
         vitality and spinal health through yoga's ancient wisdom.
@@ -30,7 +29,6 @@ seo:
         back-bending, Transformative effects of back-bending yoga poses.
     hide-from-google: false
 ---
-## Introduction
 
 In the ancient science of Ayurveda, yoga is considered an integral part of maintaining physical, mental, and spiritual well-being. Among the various yoga practices, back-bending asanas hold a special place in Ayurvedic philosophy due to their profound impact on spinal health and vitality. Back-bending asanas, known as "Bhujangasana" or "Cobra Pose," "Ustrasana" or "Camel Pose," and "Dhanurasana" or "Bow Pose," are revered for their ability to activate specific energy centers and enhance the flow of prana (life force) through the body. In this blog post, we explore the significance of back-bending asanas from an Ayurvedic perspective and their profound benefits on the mind, body, and soul.
 

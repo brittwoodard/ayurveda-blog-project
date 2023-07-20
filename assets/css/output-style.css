@@ -1096,6 +1096,9 @@ li h3 {
 .mt-5p {
   margin-top: 5%;
 }
+.mb-\[0\.7rem\] {
+  margin-bottom: 0.7rem;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1524,6 +1527,12 @@ li h3 {
 }
 .text-\[20vh\] {
   font-size: 20vh;
+}
+.text-\[10vw\] {
+  font-size: 10vw;
+}
+.text-\[8vw\] {
+  font-size: 8vw;
 }
 .font-bold {
   font-weight: 700;

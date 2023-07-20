@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Design a Yoga Sequence for Your Home Practic
+title: DIY Home Yoga Sequence
 description: >-
     Unlock the magic of yoga at home with this step-by-step guide on designing your personalized yoga sequence.
 author: Brittany Woodard
@@ -9,11 +9,10 @@ categories:
     - yoga
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
-    heading: Design a Yoga Sequence
+    heading: DIY Home Yoga Sequence
     description:  Unlock the magic of yoga at home with this step-by-step guide on designing your personalized yoga sequence.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
-banner-style-indented: false
 seo:
     title: How to Design Your Dream Sequence for Your Home Practice
     description: >-

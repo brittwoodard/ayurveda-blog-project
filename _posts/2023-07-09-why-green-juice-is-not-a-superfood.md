@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Green Juice, An Ayurvedic Perspective on Why It's Not a Superfood for Everyone
+title: Ayurvedic Insights on Green Juice
 description: >-
     Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
 author: Brittany Woodard
@@ -9,11 +9,10 @@ categories:
     - nutrition
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
-    heading: Why Green Juice isn't a Superfood
+    heading: Ayurvedic Insights on Green Juice
     description: Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
-banner-style-indented: false
 seo:
     title: Green Juice, An Ayurvedic Perspective on Why It's Not a Superfood for Everyone
     description: >-
