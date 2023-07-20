@@ -1522,6 +1522,9 @@ li h3 {
   font-size: 0.75rem;
   line-height: 1.2;
 }
+.text-\[20vh\] {
+  font-size: 20vh;
+}
 .font-bold {
   font-weight: 700;
 }
