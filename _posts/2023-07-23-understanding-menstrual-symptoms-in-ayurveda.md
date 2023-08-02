@@ -28,8 +28,6 @@ seo:
         health Menstrual cycle and well-being
     hide-from-google: false
 ---
-The Power of Balance: Empowering Your Menstrual Health with Ayurveda
-
 In Ayurveda, the ancient holistic healing system, the menstrual cycle is a powerful indicator of a woman's overall health and well-being. Understanding the significance of premenstrual and menstrual symptoms can provide valuable insights into your body's unique needs and doshic balance. By applying the Ayurvedic concept of "opposites attract," you can empower yourself to find balance and harmony during this important time. Additionally, seeking guidance from an Ayurvedic Doctor or Practitioner can further enhance your journey towards whole-body wellness.
 
 ## Understanding Menstrual Symptoms and Their Causes
