@@ -14,8 +14,8 @@ cta-shortcode:
   - web-dev
   - photography
 navigation:
-  - url: /blog
-    title: "Blog"
+  - url: /articles
+    title: "Article Collection"
   - url: /shop
     title: "Shop"
   - url: "https://clear-flute.cloudvent.net?msopen=/member/sign_in"

@@ -1069,6 +1069,9 @@ li h3 {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mb-\[0\.7rem\] {
+  margin-bottom: 0.7rem;
+}
 .ml-8 {
   margin-left: 2rem;
 }
@@ -1095,9 +1098,6 @@ li h3 {
 }
 .mt-5p {
   margin-top: 5%;
-}
-.mb-\[0\.7rem\] {
-  margin-bottom: 0.7rem;
 }
 .line-clamp-2 {
   overflow: hidden;
@@ -1509,8 +1509,11 @@ li h3 {
   font-size: 6rem;
   line-height: 1;
 }
-.text-\[13vw\] {
-  font-size: 13vw;
+.text-\[20vh\] {
+  font-size: 20vh;
+}
+.text-\[9vw\] {
+  font-size: 9vw;
 }
 .text-lg {
   font-size: 1.125rem;;
@@ -1527,18 +1530,6 @@ li h3 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1.2;
-}
-.text-\[20vh\] {
-  font-size: 20vh;
-}
-.text-\[10vw\] {
-  font-size: 10vw;
-}
-.text-\[8vw\] {
-  font-size: 8vw;
-}
-.text-\[9vw\] {
-  font-size: 9vw;
 }
 .font-bold {
   font-weight: 700;
@@ -1561,20 +1552,14 @@ li h3 {
 .leading-\[1\.4em\] {
   line-height: 1.4em;
 }
+.leading-\[6rem\] {
+  line-height: 6rem;
+}
 .leading-normal {
   line-height: 1.5;
 }
 .leading-relaxed {
   line-height: 1.625;
-}
-.leading-3 {
-  line-height: .75rem;
-}
-.leading-4 {
-  line-height: 1rem;
-}
-.leading-\[6rem\] {
-  line-height: 6rem;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
