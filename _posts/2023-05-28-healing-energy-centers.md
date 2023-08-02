@@ -6,7 +6,7 @@ description: >-
 author: Brittany Woodard
 featured: true
 categories:
-    - yoga
+    - heath
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Healing Energy Centers

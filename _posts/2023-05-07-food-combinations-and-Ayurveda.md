@@ -6,7 +6,7 @@ description: >-
 author: Brittany Woodard
 featured: true
 categories:
-    - yoga
+    - nutrition
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Food Combinations & Ayurveda

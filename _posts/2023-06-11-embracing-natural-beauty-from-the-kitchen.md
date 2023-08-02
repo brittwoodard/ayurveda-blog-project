@@ -6,7 +6,7 @@ description: >-
 author: Brittany Woodard
 featured: true
 categories:
-    - yoga
+    - skincare
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Embracing Natural Beauty from the Kitchen

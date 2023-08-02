@@ -6,7 +6,8 @@ description: >-
 author: Brittany Woodard
 featured: true
 categories:
-    - yoga
+    - skincare
+    - health
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: The Art of Self-Massage

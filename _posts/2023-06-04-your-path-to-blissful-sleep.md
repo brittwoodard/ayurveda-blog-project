@@ -6,7 +6,7 @@ description: >-
 author: Brittany Woodard
 featured: true
 categories:
-    - yoga
+    - health
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Your Path to Blissful Sleep
