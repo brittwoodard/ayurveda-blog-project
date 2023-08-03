@@ -14,7 +14,7 @@ banner:
     description: >-
         Explore Ayurveda's unique perspective on the menstrual cycle and its
         connection to overall health.
-    image_path: /uploads/ayurveda-blog-1.jpg
+    image_path: /uploads/ayurveda-blog-13.jpg
     image_focus: center
 seo:
     title: Understanding Menstrual Symptoms in Ayurveda
