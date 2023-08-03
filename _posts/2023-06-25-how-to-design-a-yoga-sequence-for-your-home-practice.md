@@ -2,27 +2,33 @@
 layout: post
 title: DIY Home Yoga Sequence
 description: >-
-    Unlock the magic of yoga at home with this step-by-step guide on designing your personalized yoga sequence.
+    Unlock the magic of yoga at home with this step-by-step guide on designing
+    your personalized yoga sequence.
 author: Brittany Woodard
 featured: true
 categories:
     - yoga
-featured_image: /uploads/ayurveda-blog-1.jpg
+featured_image: /uploads/ayurveda-blog-32.jpg
 banner:
     heading: DIY Home Yoga Sequence
-    description:  Unlock the magic of yoga at home with this step-by-step guide on designing your personalized yoga sequence.
-    image_path: /uploads/ayurveda-blog-1.jpg
+    description: >-
+        Unlock the magic of yoga at home with this step-by-step guide on
+        designing your personalized yoga sequence.
+    image_path: /uploads/ayurveda-blog-32.jpg
     image_focus: center
 seo:
     title: How to Design Your Dream Sequence for Your Home Practice
     description: >-
-        Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
-    social_image:
+        Explore the Ayurvedic significance of back-bending asanas, unlocking
+        vitality and spinal health through yoga's ancient wisdom.
+    social_image: /uploads/ayurveda-blog-32.jpg
     keywords: >-
-        Design your yoga sequence, Yoga at home guide, Personalized home yoga practice, Create a yoga routine at home, Home yoga sequence for beginners, DIY yoga practice, Yoga at home tips, How to practice yoga at home
+        Design your yoga sequence, Yoga at home guide, Personalized home yoga
+        practice, Create a yoga routine at home, Home yoga sequence for
+        beginners, DIY yoga practice, Yoga at home tips, How to practice yoga at
+        home
     hide-from-google: false
 ---
-
 Namaste, fellow seekers of serenity! Are you ready to embark on a transformative journey to create your very own home yoga sequence? Welcome to "Design Your Zen," where we'll unlock the secrets to crafting a tailor-made yoga experience that fits you like a cozy pair of yoga pants. Say goodbye to studio schedules and hello to your personalized sanctuary for blissful practice. So let's roll out those mats and dive into the art of designing your perfect home yoga sequence - let the zen-terior decorating begin!
 
 ## Step 1: Set the Scene
