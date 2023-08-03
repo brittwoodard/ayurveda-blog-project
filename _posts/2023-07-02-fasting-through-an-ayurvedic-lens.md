@@ -2,7 +2,8 @@
 layout: post
 title: Fasting Through an Ayurvedic Lens
 description: >-
-    Explore the ancient practice of fasting from an Ayurvedic perspective, understanding its benefits and guidelines for optimal well-being.
+    Explore the ancient practice of fasting from an Ayurvedic perspective,
+    understanding its benefits and guidelines for optimal well-being.
 author: Brittany Woodard
 featured: true
 categories:
@@ -10,19 +11,24 @@ categories:
 featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Fasting Through an Ayurvedic Lens
-    description: Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
+    description: >-
+        Explore the Ayurvedic viewpoint on green juice and discover why it may
+        not be suitable for everyone's constitution and well-being.
     image_path: /uploads/ayurveda-blog-1.jpg
     image_focus: center
 seo:
     title: Fasting Through an Ayurvedic Lens
     description: >-
-        Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
+        Explore the Ayurvedic significance of back-bending asanas, unlocking
+        vitality and spinal health through yoga's ancient wisdom.
     social_image:
     keywords: >-
-        Fasting and Ayurveda, Ayurvedic approach to fasting, Benefits of fasting in Ayurveda, Types of fasting in Ayurvedic practice, Dosha considerations for fasting, Fasting for detoxification and rejuvenation, Ayurvedic guidelines for safe fasting
+        Fasting and Ayurveda, Ayurvedic approach to fasting, Benefits of fasting
+        in Ayurveda, Types of fasting in Ayurvedic practice, Dosha
+        considerations for fasting, Fasting for detoxification and rejuvenation,
+        Ayurvedic guidelines for safe fasting
     hide-from-google: false
 ---
-
 Fasting, the intentional abstention from food for a specific period, has been practiced for centuries as a means of purifying the body, mind, and spirit. In the Ayurvedic tradition, fasting is not merely a restrictive measure but a holistic practice that aims to balance the doshas, rejuvenate the digestive system, and promote overall well-being. In this blog post, we delve into the concept of fasting from an Ayurvedic perspective, exploring its benefits, different fasting methods, and guidelines to embrace this time-honored practice safely.
 
 ## The Foundation of Fasting in Ayurveda
@@ -61,11 +67,11 @@ Ekadashi, the eleventh day of both the waxing and waning moon, holds particular 
 
 Individual dosha constitution plays a pivotal role in determining the type and duration of fasting that would be most suitable for an individual. While fasting can be beneficial for everyone when done correctly, it's essential to align the fasting practice with one's dosha to avoid potential imbalances.
 
-Vata Dosha: Vata individuals may find it challenging to sustain long fasts due to their tendency towards irregularity and lightness. Shorter, more frequent fasting periods, such as intermittent fasting, can be beneficial to avoid Vata imbalance.
+<u>Vata Dosha</u>\: Vata individuals may find it challenging to sustain long fasts due to their tendency towards irregularity and lightness. Instead, a monofood diet such as a kitchari, can be beneficial to avoid Vata imbalance.
 
-Pitta Dosha: Pitta individuals generally have a robust digestive fire, making fasting relatively more manageable for them. However, they should avoid intense fasting methods that may exacerbate their fiery nature. Liquid fasting or light, easily digestible foods can be a better choice.
+<u>Pitta Dosha</u>\: Pitta individuals generally have a robust digestive fire, making fasting relatively more manageable for them. However, they should avoid intense fasting methods that may exacerbate their fiery nature. Liquid fasting or light, easily digestible foods can be a better choice.
 
-Kapha Dosha: Kapha individuals often benefit from fasting as it helps stimulate their slower metabolism and promotes detoxification. However, they should be mindful not to overindulge during non-fasting periods to avoid further Kapha imbalances.
+<u>Kapha Dosha</u>\: Kapha individuals often benefit from fasting as it helps stimulate their slower metabolism and promotes detoxification. However, they should be mindful not to overindulge during non-fasting periods to avoid further Kapha imbalances.
 
 ## Ayurvedic Guidelines for Safe Fasting
 
