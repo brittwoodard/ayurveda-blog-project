@@ -37,29 +37,29 @@ Ayurveda, the ancient Indian system of medicine, recognizes the importance of ba
 
 ## Benefits of Fasting in Ayurveda
 
-Detoxification and Elimination of Ama
+### Detoxification and Elimination of Ama
 
 Ama, the accumulation of undigested toxins, is considered a major precursor to disease in Ayurveda. Fasting helps ignite Agni, allowing the body to burn away Ama and cleanse the system of accumulated waste, promoting detoxification.
 
-Rejuvenation of Digestive Fire
+### Rejuvenation of Digestive Fire
 
 Fasting gives the digestive system a much-needed break, allowing it to restore its strength and efficiency. A rekindled Agni enhances nutrient absorption and digestion, leading to improved overall metabolism.
 
-Balance of Doshas
+### Balance of Doshas
 
 Ayurveda recognizes that each individual has a unique dosha constitution - Vata, Pitta, or Kapha. Different fasting techniques can be tailored to balance specific dosha imbalances, promoting harmony within the body and mind.
 
 ## Types of Fasting in Ayurvedic Practice
 
-Intermittent Fasting
+### Intermittent Fasting
 
 Intermittent fasting involves cycling between periods of eating and fasting. Ayurveda recommends adjusting the fasting window based on an individual's dosha constitution and the current season. For example, Pitta individuals may benefit from shorter fasting periods, while Vata individuals might require more frequent but shorter fasts.
 
-Liquid Fasting
+### Liquid Fasting
 
 Liquid fasting involves consuming only liquids such as water, herbal teas, or vegetable broths for a designated period. This practice supports detoxification and allows the digestive system to rest while maintaining hydration.
 
-Ekadashi Fasting
+### Ekadashi Fasting
 
 Ekadashi, the eleventh day of both the waxing and waning moon, holds particular significance in Ayurveda. On this day, followers observe a water or fruit fast to purify the body and mind.
 
@@ -75,15 +75,15 @@ Individual dosha constitution plays a pivotal role in determining the type and d
 
 ## Ayurvedic Guidelines for Safe Fasting
 
-Seek Professional Guidance
+### Seek Professional Guidance
 
 Before embarking on a fasting journey, it's advisable to consult with an Ayurvedic practitioner or healthcare professional. They can assess your dosha constitution and overall health to recommend a fasting approach that suits your individual needs.
 
-Gradual Progression
+### Gradual Progression
 
 If you are new to fasting, start with gentle and shorter fasting periods. Allow your body to adjust to the practice before attempting more extended or intense fasts.
 
-Stay Hydrated
+### Stay Hydrated
 
 Regardless of the fasting method, ensure you stay well-hydrated by drinking plenty of water and herbal teas throughout the fasting period.
 
