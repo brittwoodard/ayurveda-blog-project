@@ -8,13 +8,14 @@ author: Brittany Woodard
 featured: true
 categories:
     - health
-featured_image: /uploads/ayurveda-blog-13.jpg
+featured_image: /uploads/ayurveda-blog-1.jpg
 banner:
     heading: Understanding Menstrual Symptoms
     description: >-
-        Explore Ayurveda's unique perspective on the menstrual cycle and its connection to overall health.
-    image_path: /uploads/ayurveda-blog-1.jpg
-    image_focus: 
+        Explore Ayurveda's unique perspective on the menstrual cycle and its
+        connection to overall health.
+    image_path: /uploads/ayurveda-blog-13.jpg
+    image_focus: center
 seo:
     title: Understanding Menstrual Symptoms in Ayurveda
     description: >-
@@ -22,7 +23,9 @@ seo:
         connection to overall health.
     social_image: /uploads/ayurveda-blog-13.jpg
     keywords: >-
-        Ayurveda menstrual cycle insights, Menstrual cycle and body health, Understanding menstrual symptoms, Ayurvedic practices for menstrual health Menstrual cycle and well-being
+        Ayurveda menstrual cycle insights, Menstrual cycle and body health,
+        Understanding menstrual symptoms, Ayurvedic practices for menstrual
+        health, Menstrual cycle and well-being
     hide-from-google: false
 ---
 In Ayurveda, the ancient holistic healing system, the menstrual cycle is a powerful indicator of a woman's overall health and well-being. Understanding the significance of premenstrual and menstrual symptoms can provide valuable insights into your body's unique needs and doshic balance. By applying the Ayurvedic concept of "opposites attract," you can empower yourself to find balance and harmony during this important time. Additionally, seeking guidance from an Ayurvedic Doctor or Practitioner can further enhance your journey towards whole-body wellness.
