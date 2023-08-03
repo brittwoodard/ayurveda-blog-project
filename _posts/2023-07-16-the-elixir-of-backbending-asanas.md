@@ -8,11 +8,13 @@ author: Brittany Woodard
 featured: true
 categories:
     - yoga
-featured_image: /uploads/ayurveda-blog-1.jpg
+featured_image: /uploads/ayurveda-blog-20.jpg
 banner:
     heading: Balancing Doshas Through Back-Bends
-    description: Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
-    image_path: /uploads/ayurveda-blog-1.jpg
+    description: >-
+        Explore the Ayurvedic significance of back-bending asanas, unlocking
+        vitality and spinal health through yoga's ancient wisdom.
+    image_path: /uploads/ayurveda-blog-25.jpg
     image_focus: center
 seo:
     title: Balancing Doshas Through Back-Bending Asanas
@@ -29,7 +31,6 @@ seo:
         back-bending, Transformative effects of back-bending yoga poses.
     hide-from-google: false
 ---
-
 In the ancient science of Ayurveda, yoga is considered an integral part of maintaining physical, mental, and spiritual well-being. Among the various yoga practices, back-bending asanas hold a special place in Ayurvedic philosophy due to their profound impact on spinal health and vitality. Back-bending asanas, known as "Bhujangasana" or "Cobra Pose," "Ustrasana" or "Camel Pose," and "Dhanurasana" or "Bow Pose," are revered for their ability to activate specific energy centers and enhance the flow of prana (life force) through the body. In this blog post, we explore the significance of back-bending asanas from an Ayurvedic perspective and their profound benefits on the mind, body, and soul.
 
 ## Understanding Ayurveda and the Vedic Approach to Yoga
@@ -45,6 +46,8 @@ In Ayurveda, the spine is considered the physical and energetic pillar of the bo
 <u>Ustrasana (Camel Pose)</u> Ustrasana opens up the chest and stretches the entire front of the body, stimulating the Anahata chakra, the center of love and compassion. This asana releases tension in the shoulders and neck, which are common areas for Vata accumulation. Ustrasana also stimulates the digestive fire (Agni), aiding in the elimination of toxins and promoting better metabolism.
 
 <u>Dhanurasana (Bow Pose)</u> Dhanurasana stretches the entire front of the body, including the abdomen, chest, and thighs. It activates the Swadhisthana chakra, which governs creativity and emotional balance. This asana is particularly useful for balancing excess Pitta dosha, as it releases built-up heat in the body and calms the mind.
+
+![](/uploads/ayurveda-blog-10.jpg)
 
 ## Energetic Benefits of Back-Bending Asanas
 
