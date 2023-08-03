@@ -1,7 +1,7 @@
 <section>
-    <div class="bg-[url('{{page.banner.image_path | default: page.featured_image}}')]" style="background-position: {{page.banner.image_focus}}">
+    <div style="background-image: url('{{page.banner.image_path | default: page.featured_image}}'); background-position: {{page.banner.image_focus}};">
         <div class="p-10p">
-            <h1 class="md:max-w-[80%] text-light text-[9vw] leading-[1.1em]">{{page.banner.heading | default: page.title}}</h1>
+            <h1 class="md:max-w-[80%] text-light text-[8vw] leading-[1.1em]">{{page.banner.heading | default: page.title}}</h1>
             <p class="uppercase text-light md:max-w-xl text-xl font-normal leading-normal">{{page.banner.description}}</p>
             {% if page.banner.button.url and page.banner.button.text %}
             <a href="{{page.banner.button.url}}">{{page.banner.button.text}}</a>

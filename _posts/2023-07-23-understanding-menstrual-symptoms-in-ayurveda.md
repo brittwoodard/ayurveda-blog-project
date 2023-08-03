@@ -8,7 +8,7 @@ author: Brittany Woodard
 featured: true
 categories:
     - health
-featured_image: /uploads/ayurveda-blog-1.jpg
+featured_image: /uploads/ayurveda-blog-13.jpg
 banner:
     heading: Understanding Menstrual Symptoms
     description: >-
@@ -34,15 +34,25 @@ In Ayurveda, the ancient holistic healing system, the menstrual cycle is a power
 
 The menstrual cycle brings about a range of symptoms that may vary from woman to woman. By paying attention to these symptoms, you can gain deeper insights into your body's doshic imbalances. Some common symptoms and their possible causes include:
 
-* Light flow: Could indicate an imbalance related to Vata dosha, leading to irregularities, anxiety, and dryness. Heavy flow: May be a sign of excessive Kapha dosha, resulting in water retention and feelings of heaviness.
-* Irregular cycle: Suggests Vata dosha imbalance, leading to anxiety and unpredictability.
-* Bloating: Often associated with excess Vata dosha, leading to gas and discomfort.
-* Low energy: May indicate a Kapha dosha imbalance, leading to lethargy and fatigue.
-* Increased body heat: Could be a sign of excessive Pitta dosha, leading to inflammation and heightened body temperature.
-* Mood swings: May suggest an imbalance between Vata and Pitta doshas, resulting in emotional fluctuations.
-* Breast tenderness: Could be related to hormonal imbalances and Pitta dosha aggravation.
-* Sluggish digestion: Indicates Kapha dosha imbalance, leading to slow metabolism and digestive issues.
-* Headaches: Could be a sign of excess Vata dosha, leading to tension and pain in the head.
+<u>Light flow</u>: Could indicate an imbalance related to Vata dosha, leading to irregularities, anxiety, and dryness. 
+
+<u>Heavy flow </u>: May be a sign of excessive Kapha dosha, resulting in water retention and feelings of heaviness.
+
+<u>Irregular cycle</u>: Suggests Vata dosha imbalance, leading to anxiety and unpredictability.
+
+<u>Bloating</u>: Often associated with excess Vata dosha, leading to gas and discomfort.
+
+<u>Low energy</u>: May indicate a Kapha dosha imbalance, leading to lethargy and fatigue.
+
+<u>Increased body heat</u>: Could be a sign of excessive Pitta dosha, leading to inflammation and heightened body temperature.
+
+<u>Mood swings</u>: May suggest an imbalance between Vata and Pitta doshas, resulting in emotional fluctuations.
+
+<u>Breast tenderness</u>: Could be related to hormonal imbalances and Pitta dosha aggravation.
+
+<u>Sluggish digestion</u>: Indicates Kapha dosha imbalance, leading to slow metabolism and digestive issues.
+
+<u>Headaches</u>: Could be a sign of excess Vata dosha, leading to tension and pain in the head.
 
 ## Applying "Opposites Attract" in Ayurveda
 
