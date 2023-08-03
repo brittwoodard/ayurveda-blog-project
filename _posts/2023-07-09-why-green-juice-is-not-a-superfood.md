@@ -15,7 +15,7 @@ banner:
         Explore the Ayurvedic viewpoint on green juice and discover why it may
         not be suitable for everyone's constitution and well-being.
     image_path: /uploads/ayurveda-blog-26.jpg
-    image_focus: center
+    image_focus: bottom
 seo:
     title: >-
         Green Juice, An Ayurvedic Perspective on Why It's Not a Superfood for
