@@ -21,7 +21,7 @@ seo:
     description: >-
         Explore the Ayurvedic significance of back-bending asanas, unlocking
         vitality and spinal health through yoga's ancient wisdom.
-    social_image:
+    social_image: /uploads/ayurveda-blog-20.jpg
     keywords: >-
         Ayurvedic perspective on back-bending asanas, Spinal health and vitality
         in Ayurveda, Benefits of back-bending asanas in yoga, Ayurvedic approach
