@@ -2,36 +2,37 @@
 layout: post
 title: Ayurvedic Insights on Green Juice
 description: >-
-    Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
+    Explore the Ayurvedic viewpoint on green juice and discover why it may not
+    be suitable for everyone's constitution and well-being.
 author: Brittany Woodard
 featured: true
 categories:
     - nutrition
-featured_image: /uploads/ayurveda-blog-1.jpg
+featured_image: /uploads/ayurveda-blog-26.jpg
 banner:
     heading: Ayurvedic Insights on Green Juice
-    description: Explore the Ayurvedic viewpoint on green juice and discover why it may not be suitable for everyone's constitution and well-being.
-    image_path: /uploads/ayurveda-blog-1.jpg
+    description: >-
+        Explore the Ayurvedic viewpoint on green juice and discover why it may
+        not be suitable for everyone's constitution and well-being.
+    image_path: /uploads/ayurveda-blog-26.jpg
     image_focus: center
 seo:
-    title: Green Juice, An Ayurvedic Perspective on Why It's Not a Superfood for Everyone
+    title: >-
+        Green Juice, An Ayurvedic Perspective on Why It's Not a Superfood for
+        Everyone
     description: >-
-        Explore the Ayurvedic significance of back-bending asanas, unlocking vitality and spinal health through yoga's ancient wisdom.
-    social_image:
+        Explore the Ayurvedic significance of back-bending asanas, unlocking
+        vitality and spinal health through yoga's ancient wisdom.
+    social_image: /uploads/ayurveda-blog-26.jpg
     keywords: >-
-        Green juice and Ayurveda
-        Ayurvedic perspective on superfoods
-        Dosha suitability of green juice
-        Ayurvedic diet and individual constitution
-        Green juice benefits and limitations
-        Is green juice right for your dosha?
-        Ayurvedic approach to green juice consumption
-        Personalized nutrition and Ayurveda
-        Green juice and dosha imbalances
-        Ayurvedic guidelines for optimal nutrition
+        Green juice and Ayurveda Ayurvedic perspective on superfoods Dosha
+        suitability of green juice Ayurvedic diet and individual constitution
+        Green juice benefits and limitations Is green juice right for your
+        dosha? Ayurvedic approach to green juice consumption Personalized
+        nutrition and Ayurveda Green juice and dosha imbalances Ayurvedic
+        guidelines for optimal nutrition
     hide-from-google: false
 ---
-
 The health and wellness industry is often quick to hail certain foods as "superfoods" due to their high nutrient content and potential benefits. Among these so-called superfoods, green juice has gained immense popularity for its rich array of vitamins, minerals, and antioxidants. While green juice can be a nourishing addition to some individuals' diets, Ayurveda, the ancient Indian holistic healing system, cautions that it may not be a one-size-fits-all solution. In this blog post, we delve into the Ayurvedic perspective on green juice and explore why it may not be considered a superfood for everyone, taking individual constitutions or doshas into account.
 
 ## Understanding Ayurvedic Perspectives on Superfoods
