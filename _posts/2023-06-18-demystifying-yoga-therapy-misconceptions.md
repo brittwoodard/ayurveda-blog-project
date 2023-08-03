@@ -2,27 +2,34 @@
 layout: post
 title: Demystifying Yoga Therapy Misconceptions
 description: >-
-    Explore the distinction between yoga therapy and physical therapy, debunking the misconception that yoga therapy requires the application of Ayurveda.
+    Explore the distinction between yoga therapy and physical therapy, debunking
+    the misconception that yoga therapy requires the application of Ayurveda.
 author: Brittany Woodard
 featured: true
 categories:
     - yoga
-featured_image: /uploads/ayurveda-blog-1.jpg
+featured_image: /uploads/ayurveda-blog-14.jpg
 banner:
     heading: Demystifying Yoga Therapy Misconceptions
-    description:  Explore the distinction between yoga therapy and physical therapy, debunking the misconception that yoga therapy requires the application of Ayurveda.
-    image_path: /uploads/ayurveda-blog-1.jpg
+    description: >-
+        Explore the distinction between yoga therapy and physical therapy,
+        debunking the misconception that yoga therapy requires the application
+        of Ayurveda.
+    image_path: /uploads/ayurveda-blog-12.jpg
     image_focus: center
 seo:
     title: Demystifying Yoga Therapy Misconceptions
     description: >-
-        Explore the distinction between yoga therapy and physical therapy, debunking the misconception that yoga therapy requires the application of Ayurveda.
-    social_image:
+        Explore the distinction between yoga therapy and physical therapy,
+        debunking the misconception that yoga therapy requires the application
+        of Ayurveda.
+    social_image: /uploads/ayurveda-blog-14.jpg
     keywords: >-
-        Yoga therapy vs. physical therapy, Misconceptions about yoga therapy, Yoga therapy and Ayurveda, Understanding yoga therapy qualifications, Yoga therapy for physical rehabilitation
+        Yoga therapy vs. physical therapy, Misconceptions about yoga therapy,
+        Yoga therapy and Ayurveda, Understanding yoga therapy qualifications,
+        Yoga therapy for physical rehabilitation
     hide-from-google: false
 ---
-
 Yoga Therapy is gaining popularity as a holistic approach to promoting physical, mental, and emotional well-being. However, there is a common misconception that yoga therapy is synonymous with physical therapy and that it must incorporate Ayurveda. In this blog post, we aim to clarify these misconceptions and shed light on the key differences between yoga therapy and physical therapy. We will also discuss the importance of choosing a qualified yoga therapist, particularly when seeking physical therapy elements in yoga therapy sessions.
 
 ## Yoga Therapy vs. Physical Therapy
