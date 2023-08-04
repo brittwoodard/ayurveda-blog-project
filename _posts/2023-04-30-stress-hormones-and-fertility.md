@@ -28,8 +28,8 @@ seo:
         restore harmony and support optimal hormonal health.
     social_image: /uploads/ayurveda-blog-29.jpg
     keywords: >-
-        Dr. Claudia Welch hormones Sex and stress hormones Hormonal issues and
-        stress Fertility and stress hormones Hormonal balance Ayurveda
+        Dr. Claudia Welch hormones, Sex and stress hormones, Hormonal issues and
+        stress, Fertility and stress hormones, Hormonal balance Ayurveda
     hide-from-google: false
 ---
 ## Sex Hormones vs. Stress Hormones: A Balancing Act for Hormonal Health
