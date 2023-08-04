@@ -8,7 +8,7 @@ author: Brittany Woodard
 featured: true
 categories:
     - yoga
-featured_image: /uploads/ayurveda-blog-14.jpg
+featured_image: /uploads/ayurveda-blog-12.jpg
 banner:
     heading: Demystifying Yoga Therapy Misconceptions
     description: >-
