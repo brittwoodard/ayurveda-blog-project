@@ -8,20 +8,20 @@ author: Brittany Woodard
 featured: true
 categories:
     - nutrition
-featured_image: /uploads/ayurveda-blog-11.jpg
+featured_image: /uploads/ayurveda-blog-16.jpg
 banner:
     heading: Fasting Through an Ayurvedic Lens
     description: >-
         Explore the Ayurvedic viewpoint on green juice and discover why it may
         not be suitable for everyone's constitution and well-being.
-    image_path: /uploads/ayurveda-blog-11.jpg
+    image_path: /uploads/ayurveda-blog-18.jpg
     image_focus: center
 seo:
     title: Fasting Through an Ayurvedic Lens
     description: >-
         Explore the Ayurvedic significance of back-bending asanas, unlocking
         vitality and spinal health through yoga's ancient wisdom.
-    social_image: /uploads/ayurveda-blog-11.jpg
+    social_image: /uploads/ayurveda-blog-16.jpg
     keywords: >-
         Fasting and Ayurveda, Ayurvedic approach to fasting, Benefits of fasting
         in Ayurveda, Types of fasting in Ayurvedic practice, Dosha
