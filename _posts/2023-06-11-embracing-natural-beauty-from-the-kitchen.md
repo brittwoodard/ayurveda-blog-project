@@ -18,7 +18,7 @@ banner:
         Embrace the goodness of oils and kitchen ingredients for a glowing
         complexion.
     image_path: /uploads/ayurveda-blog-21.jpg
-    image_focus: center
+    image_focus: top
 seo:
     title: Embracing Natural Beauty from the Kitchen
     description: >-
