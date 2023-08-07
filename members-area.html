@@ -5,11 +5,12 @@ banner:
   image_path: /uploads/blog-bg-17.jpg
 banner-style-indented: false
 members-content:
-  - title: This is a title
+  - title: Introduction to Ayurveda & Hormonal Health
+    featured_image: /uploads/ayurveda-blog-34
+    content_html: Welcome to the fascinating world of Ayurveda and its profound connection with female hormones. In this enlightening lesson, we will delve into the ancient wisdom of Ayurvedic medicine and explore how it beautifully intertwines with the intricate balance of female hormones. As we journey through the teachings of this holistic healing system, you will gain insights into how Ayurveda nurtures the well-being of women at every stage of life. Get ready to unlock the secrets of harmonizing your hormones through the timeless principles of Ayurveda, and embrace a path of health, harmony, and vitality. Let's embark on this transformative quest to discover the profound relationship between Ayurveda and female hormones!
+  - title: Understanding the Female Endocrine System
     content_html: some content
-  - title: This is a second title
-    content_html: some content
-  - title: This is a third title
+  - title: Ayurvedic Principles for Balancing Hormones
     content_html: some content
 ---
 
@@ -20,13 +21,14 @@ members-content:
 <section class="min-h-80 px-5p grid grid-cols-4 divide-x divide-dark">
     <div class="col-span-1 py-16">
         {% for item in page.members-content %}
-        <a href="#{{item.title | slugify}}" class="block">{{item.title}}</a>
+        <a href="#{{item.title | slugify}}" class="block mb-4">{{item.title}}</a>
         {% endfor %}
     </div>
 
     <div class="col-span-3 py-16">
 
         {% for item in page.members-content %}
+        <img src="{{item.featured_image}}">
         <div id="{{item.title | slugify}}" class="p-5p border-b border-dark">
             {{ item.content_html }}
         </div>
