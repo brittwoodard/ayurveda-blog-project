@@ -6,11 +6,13 @@ banner:
 banner-style-indented: false
 members-content:
   - title: Introduction to Ayurveda & Hormonal Health
-    featured_image: /uploads/ayurveda-blog-34
+    featured_image: /uploads/ayurveda-blog-34.jpg
     content_html: Welcome to the fascinating world of Ayurveda and its profound connection with female hormones. In this enlightening lesson, we will delve into the ancient wisdom of Ayurvedic medicine and explore how it beautifully intertwines with the intricate balance of female hormones. As we journey through the teachings of this holistic healing system, you will gain insights into how Ayurveda nurtures the well-being of women at every stage of life. Get ready to unlock the secrets of harmonizing your hormones through the timeless principles of Ayurveda, and embrace a path of health, harmony, and vitality. Let's embark on this transformative quest to discover the profound relationship between Ayurveda and female hormones!
   - title: Understanding the Female Endocrine System
+    featured_image: /uploads/uploads/ayurveda-blog-34.jpg
     content_html: some content
   - title: Ayurvedic Principles for Balancing Hormones
+    featured_image: /uploads/uploads/ayurveda-blog-34.jpg
     content_html: some content
 ---
 
@@ -28,9 +30,10 @@ members-content:
     <div class="col-span-3 py-16">
 
         {% for item in page.members-content %}
-        <img src="{{item.featured_image}}">
-        <div id="{{item.title | slugify}}" class="p-5p border-b border-dark">
-            {{ item.content_html }}
+        
+        <div id="{{item.title | slugify}}" class="px-5p border-b border-dark">
+          <img src="{{item.featured_image}}" class="mb-4">
+            {{item.content_html}}
         </div>
 
         {% endfor %}

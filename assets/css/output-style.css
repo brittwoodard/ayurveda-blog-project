@@ -1141,6 +1141,9 @@ li h3 {
 .h-full {
   height: 100%;
 }
+.h-\[70vh\] {
+  height: 70vh;
+}
 .min-h-70 {
   min-height: 70vh;
 }
