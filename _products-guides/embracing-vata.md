@@ -7,14 +7,14 @@ description_html: >-
 price: $37
 buy-button-id: 1686971064446
 type: guide
-featured_image: /uploads/guide-embracing-vata-1.png
+featured_image: /uploads/guide-vata-1.png
 gallery:
-  - image_path: /uploads/guide-embracing-vata-1.png
-  - image_path: /uploads/guide-embracing-vata-2.png
-  - image_path: /uploads/guide-embracing-vata-3.png
-  - image_path: /uploads/guide-embracing-vata-4.png
-  - image_path: /uploads/guide-embracing-vata-5.png
-  - image_path: /uploads/guide-embracing-vata-6.png
+  - image_path: /uploads/guide-vata-1.png
+  - image_path: /uploads/guide-vata-2.png
+  - image_path: /uploads/guide-vata-3.png
+  - image_path: /uploads/guide-vata-4.png
+  - image_path: /uploads/guide-vata-5.png
+  - image_path: /uploads/guide-vata-6.png
 features_html: >-
   <ul><li>Comprehensive Guidebook: "Embracing Vata"</li><li>In-depth exploration of vata energy and its impact on well-being</li><li>Personalized strategies and practices for balancing vata</li><li>Mindful self-care rituals to cultivate vitality and inner harmony</li><li>Nourishing dietary recommendations for vata balance</li><li>Step-by-step instructions for breathwork and meditation techniques</li><li>Insights on tapping into your creative potential in alignment with vata</li><li>Practical tools and resources to optimize your life with vata wisdom</li></ul>
 slug: embracing-vata
