@@ -1,13 +1,29 @@
+<!-- Only show on md screens or smaller -->
+<div class="col-1 show-md">
+      <div class="mobile-button">
+            <span class="mobile-top"></span>
+            <span class="mobile-middle"></span>
+            <span class="mobile-bottom"></span>
+      </div>
+</div>
 
-<header class="flex justify-between">
+<nav class="mobile-menu">
+      {% for item in site.data.site-settings.navigation %}
+      <a href="{{item.url}}" class="p-4 uppercase whitespace-nowrap hover:text-accent">{{item.title}}</a>
+      {% endfor %}
+</nav>
 
-    <a href="/index.html" class="inline-block logo text-4xl font-serif py-8 px-16 tracking-widest">wbw.</a>
+<!-- Only show on lg screens or larger -->
+<header class="hidden lg:flex justify-between">
 
-    <nav class="flex items-center md:justify-center md:overflow-x-auto overflow-x-scroll md:flex-wrap flex-nowrap text-xl tracking-widest px-16">
+      <a href="/index.html" class="inline-block logo text-4xl font-serif py-8 px-16 tracking-widest">wbw.</a>
 
-          {% for item in site.data.site-settings.navigation %}
-          <a href="{{item.url}}" class="p-4 uppercase whitespace-nowrap hover:text-accent">{{item.title}}</a>
-          {% endfor %}
-          
-    </nav> 
-  </header>
+      <nav
+            class="flex items-center md:justify-center md:overflow-x-auto overflow-x-scroll md:flex-wrap flex-nowrap text-xl tracking-widest px-16">
+
+            {% for item in site.data.site-settings.navigation %}
+            <a href="{{item.url}}" class="p-4 uppercase whitespace-nowrap hover:text-accent">{{item.title}}</a>
+            {% endfor %}
+
+      </nav>
+</header>

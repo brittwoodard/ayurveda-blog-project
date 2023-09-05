@@ -1,1 +1,10 @@
-console.log(`First one to find this get bonus points. extra if you can tell the mentor's with out anyone else seeing it :D`)
+// Mbile Menu
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    $( document ).ready(function() {
+        $(".mobile-button").click(function(){
+          $(".mobile-button").toggleClass("active");
+          $(".mobile-menu").toggleClass("active");
+        });
+     });
+});

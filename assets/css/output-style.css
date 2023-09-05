@@ -1069,6 +1069,9 @@ li h3 {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mb-\[0\.3em\] {
+  margin-bottom: 0.3em;
+}
 .mb-\[0\.7rem\] {
   margin-bottom: 0.7rem;
 }
@@ -1622,6 +1625,100 @@ li h3 {
   margin-bottom: 1rem;
 }
 
+/* Mobile Menu */
+.mobile-button {
+    position:fixed;
+    top: 3.2vh;
+    right: 2vh;
+    z-index: 9;
+    padding: 0.5rem;
+  }
+
+  .mobile-button span{
+    width: 2rem;
+    border: 1px solid #333e27;
+    background-color: #333e27;
+    display: block;
+    border-radius: 22px;
+    transition: 2s;
+  }
+
+  .mobile-button.active span{
+    border-color: #333e27;
+    background-color: #333e27;
+  }
+  
+  .mobile-top, .mobile-bottom{
+    position: absolute;
+  }
+  
+  .mobile-top{
+    top: -02px;
+  }
+  
+  .mobile-bottom{
+    bottom: -02px;
+  }
+
+  /* make sure this has the same top as the burger button has padding*/
+  .mobile-button.active .mobile-top{
+    position: absolute;
+    top: 8px;
+    transform: rotateZ(45deg);
+  }
+  
+  .mobile-button.active .mobile-middle{
+  /*   transform: rotateZ(270deg); */
+    border-color: rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0);
+  }
+    
+  .mobile-button.active .mobile-bottom{
+    position: absolute;
+    bottom: 8px;
+    transform: rotateZ(-45deg);
+  }
+  
+  .mobile-menu {
+      display: flex;
+      position: fixed;
+      top: 0vh;
+      left:100vw;
+      right: -100vw;
+      bottom: 0vh;
+      background-color: #c8cbc4;
+      padding: 5%;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+      z-index: 8;
+    transition:1s;
+      align-content:space-around;
+    justify-content:space-around;
+    flex-direction:column;
+  }
+
+  .mobile-menu.active{
+    left:0;
+    right:0;
+  }
+
+  .mobile-menu a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #86563c;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: lowercase;
+  }
+  
+  .mobile-menu a:hover {
+    color: #707071;
+  }
+
+
 
 
 /* Memberspace popup styles */
@@ -1739,6 +1836,12 @@ li h3 {
   }
   .md\:bg-fixed {
     background-attachment: fixed;
+  }
+}
+    
+   @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
   }
 }
     
