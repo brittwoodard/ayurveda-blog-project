@@ -123,56 +123,41 @@ li h3 {
 
 /* Mobile Menu */
 .mobile-button {
-    position:fixed;
-    top: 3.2vh;
-    right: 2vh;
-    z-index: 9;
-    padding: 0.5rem;
+    @apply fixed top-[3.2vh] right-[2vh] z-30 p-2 
   }
 
   .mobile-button span{
-    width: 2rem;
-    border: 1px solid #333e27;
-    background-color: #333e27;
-    display: block;
-    border-radius: 22px;
-    transition: 2s;
+    @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
   }
 
   .mobile-button.active span{
-    border-color: #333e27;
-    background-color: #333e27;
+    @apply border border-accent bg-accent
   }
   
   .mobile-top, .mobile-bottom{
-    position: absolute;
+    @apply absolute
   }
   
   .mobile-top{
-    top: -02px;
+    @apply -top-[02px]
   }
   
   .mobile-bottom{
-    bottom: -02px;
+    @apply -bottom-[2px]
   }
 
   /* make sure this has the same top as the burger button has padding*/
   .mobile-button.active .mobile-top{
-    position: absolute;
-    top: 8px;
-    transform: rotateZ(45deg);
+    @apply absolute top-2 origin-center rotate-45
   }
   
   .mobile-button.active .mobile-middle{
   /*   transform: rotateZ(270deg); */
-    border-color: rgba(0,0,0,0);
-    background-color:rgba(0,0,0,0);
+    @apply opacity-0
   }
     
   .mobile-button.active .mobile-bottom{
-    position: absolute;
-    bottom: 8px;
-    transform: rotateZ(-45deg);
+    @apply absolute bottom-2 origin-center -rotate-45
   }
   
   .mobile-menu {
