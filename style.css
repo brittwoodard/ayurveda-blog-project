@@ -10,102 +10,107 @@
 
 @layer components {
     .flex-center {
-      @apply flex justify-center items-center;
+        @apply flex justify-center items-center;
     }
 
     .focus {
         @apply focus:outline-none focus:ring-2 focus-visible:ring-accent
-
     }
-  }
+}
 
 /* ----------- CSS RESET --------- */
 @layer base {
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: color 0.5s, background-color 0.5s, width 0.5s;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        transition: color 0.5s, background-color 0.5s, width 0.5s;
+    }
 
-body {
-    font-weight: 300;
-}
-  
-img { max-width: 100%; height: auto; }
+    body {
+        font-weight: 300;
+    }
 
-section { 
-    position: relative; 
-}
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
-div {
-    background-size: cover;
-    background-position: center;
-}
+    section {
+        position: relative;
+    }
 
-h1 {
-    @apply font-serif text-[13vw] mb-8 leading-[0.8];
-}
+    div {
+        background-size: cover;
+        background-position: center;
+    }
 
-h2, h3, h4 {
-    @apply uppercase font-serif mb-8 tracking-widest
-}
+    h1 {
+        @apply font-serif text-[13vw] mb-8 leading-[0.8];
+    }
 
-h2 {
-    @apply text-5xl
-}
+    h2,
+    h3,
+    h4 {
+        @apply uppercase font-serif mb-8 tracking-widest
+    }
 
-h3 {
-    @apply text-xl font-sans mb-4
-}
+    h2 {
+        @apply text-5xl
+    }
 
-p {
-    @apply mb-4
-}
+    h3 {
+        @apply text-xl font-sans mb-4
+    }
 
-footer h2 {
-    @apply text-xl uppercase
-}
+    p {
+        @apply mb-4
+    }
 
-li h3 {
-    @apply text-left
-}
+    footer h2 {
+        @apply text-xl uppercase
+    }
 
-.prose blockquote {
-    @apply font-serif text-center text-5xl tracking-wide not-italic border-none m-0 px-4 py-8;
-}
+    li h3 {
+        @apply text-left
+    }
 
-.tag {
+    .prose blockquote {
+        @apply font-serif text-center text-5xl tracking-wide not-italic border-none m-0 px-4 py-8;
+    }
 
-    @apply uppercase text-zinc-600 text-xs tracking-wide;
-}
+    .tag {
 
-.button {
-    @apply uppercase font-serif mb-4 inline-block border-b border-dark tracking-widest text-2xl
-}
+        @apply uppercase text-zinc-600 text-xs tracking-wide;
+    }
 
-.button-2 {
-    @apply uppercase text-dark border border-dark px-8 py-4 inline-block mx-4
-}
-.button-2:hover {
-    @apply bg-dark text-white px-8 py-4
-}
+    .button {
+        @apply uppercase font-serif mb-4 inline-block border-b border-dark tracking-widest text-2xl
+    }
 
-.shopify-button {
-    @apply uppercase bg-dark text-white px-8 py-4 inline-block border
-}
+    .button-2 {
+        @apply uppercase text-dark border border-dark px-8 py-4 inline-block mx-4
+    }
 
-.blurb {
-    font-size: 4.5rem;
-    line-height: 1;
-    font-family: Italiana, serif;
-    text-align: center;
-    text-transform: initial;
-}
+    .button-2:hover {
+        @apply bg-dark text-white px-8 py-4
+    }
 
-.bg-image-style {
-    @apply bg-no-repeat bg-cover bg-center
-}
+    .shopify-button {
+        @apply uppercase bg-dark text-white px-8 py-4 inline-block border
+    }
+
+    .blurb {
+        font-size: 4.5rem;
+        line-height: 1;
+        font-family: Italiana, serif;
+        text-align: center;
+        text-transform: initial;
+    }
+
+    .bg-image-style {
+        @apply bg-no-repeat bg-cover bg-center
+    }
 
 }
 
@@ -113,7 +118,7 @@ li h3 {
     @apply bg-transparent text-dark border border-dark
 }
 
-.ul-parent-dots ul{
+.ul-parent-dots ul {
     @apply list-disc mb-4
 }
 
@@ -123,66 +128,67 @@ li h3 {
 
 /* Mobile Menu */
 .mobile-button {
-    @apply fixed top-5p right-5p z-50 p-2 
-  }
+    @apply fixed top-5p right-5p z-50 p-2
+}
 
-  .mobile-button span{
+.mobile-button span {
     @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
-  }
+}
 
-  .mobile-button.active span{
+.mobile-button.active span {
     @apply border border-dark bg-dark
-  }
-  
-  .mobile-top, .mobile-bottom{
-    @apply absolute
-  }
-  
-  .mobile-top{
-    @apply -top-[02px]
-  }
-  
-  .mobile-bottom{
-    @apply -bottom-[2px]
-  }
+}
 
-  /* make sure this has the same top as the burger button has padding*/
-  .mobile-button.active .mobile-top{
+.mobile-top,
+.mobile-bottom {
+    @apply absolute
+}
+
+.mobile-top {
+    @apply -top-[02px]
+}
+
+.mobile-bottom {
+    @apply -bottom-[2px]
+}
+
+/* make sure this has the same top as the burger button has padding*/
+.mobile-button.active .mobile-top {
     @apply absolute top-2 origin-center rotate-45
-  }
-  
-  .mobile-button.active .mobile-middle{
-  /*   transform: rotateZ(270deg); */
+}
+
+.mobile-button.active .mobile-middle {
+    /*   transform: rotateZ(270deg); */
     @apply opacity-0
-  }
-    
-  .mobile-button.active .mobile-bottom{
+}
+
+.mobile-button.active .mobile-bottom {
     @apply absolute bottom-2 origin-center -rotate-45
-  }
-  
-  .mobile-menu {
+}
+
+.mobile-menu {
     display: flex;
     position: fixed;
     top: 0vh;
-    left:100vw;
+    left: 100vw;
     right: -100vw;
     bottom: 0vh;
     background-color: #c8cbc4;
     padding: 5%;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
     z-index: 8;
-  transition:1s;
-    align-content:space-around;
-  justify-content:space-around;
-  flex-direction:column;
-  }
+    transition: 1s;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
-  .mobile-menu.active{
-    left:0;
-    right:0;
-  }
+.mobile-menu.active {
+    left: 0;
+    right: 0;
+}
 
-  .mobile-menu a {
+.mobile-menu a {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 300;
@@ -193,18 +199,18 @@ li h3 {
     text-align: center;
     white-space: nowrap;
     text-transform: lowercase;
-  }
-  
-  .mobile-menu a:hover {
+}
+
+.mobile-menu a:hover {
     color: #707071;
-  }
+}
 
 
 
 
 /* Memberspace popup styles */
 
-.MemberSpaceWidgetInternal__modal_modal ,
+.MemberSpaceWidgetInternal__modal_modal,
 .MemberSpaceWidgetInternal__modal_size-sm {
 
     @apply bg-stone-300;
@@ -213,24 +219,26 @@ li h3 {
 /* Members Area Styles */
 #memberspace-login-form input {
     border: 2px solid blue;
-   }
-   
-   #memberspace-login-form label {
-       border: 2px solid yellow;
-   }
-   
-   /* Forgot Email / forgot password text */
-   #memberspace-login-form .MemberSpaceWidgetInternal__InputWrapper_labelRight {
-       color: green;
-   }
-   
-   
-   #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-primary {
-       color: red;
-   }
-   
-   #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-secondary {
-       color: blue;
-   }
-    
-   .MemberSpaceWidgetInternal__BrandedInterface_footer {display: none; }
+}
+
+#memberspace-login-form label {
+    border: 2px solid yellow;
+}
+
+/* Forgot Email / forgot password text */
+#memberspace-login-form .MemberSpaceWidgetInternal__InputWrapper_labelRight {
+    color: green;
+}
+
+
+#memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-primary {
+    color: red;
+}
+
+#memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-secondary {
+    color: blue;
+}
+
+.MemberSpaceWidgetInternal__BrandedInterface_footer {
+    display: none;
+}
