@@ -56,7 +56,7 @@ seo:
 <!-- Mobile View -->
 <section class="sm:hidden pt-[20%] pb-10p bg-sand">
   <h2 class="max-w-lg p-10p blurb-xs inline-block bg-medium">{{page.text_blurb.heading}}</h2>
-  <div class="min-h-[50vh] mx-10p bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full -mt-[5.5rem]"></div>
+  <div class="min-h-[50vh] mx-10p bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] -mt-[5.5rem]"></div>
   <div class="p-10p relative">
     <p class="mb-0">{{page.text_blurb.description}}</p>
     <a href="{{page.text_blurb.button.url}}" class="button absolute -top-[35%] -right-[8%] rotate-90">{{ page.text_blurb.button.text }}</a>
