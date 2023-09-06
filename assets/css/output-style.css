@@ -1519,6 +1519,12 @@ li h3 {
 .pt-\[20\%\] {
   padding-top: 20%;
 }
+.pr-10p {
+  padding-right: 10%;
+}
+.pr-5p {
+  padding-right: 5%;
+}
 .text-left {
   text-align: left;
 }
@@ -1940,6 +1946,10 @@ li h3 {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 1.2;
+  }
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
 
