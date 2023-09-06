@@ -98,7 +98,7 @@ seo:
 <section class="py-10p bg-sand">
   <h2 class="text-center">{{page.blog.heading}}</h2>
 
-  <div class="grid grid-cols-4 gap-2">
+  <div class="grid md:grid-cols-4 gap-2">
 
     {% assign featured_posts = site.posts | where: 'featured', true %}
 
@@ -108,7 +108,7 @@ seo:
        {% cycle 'col-span-1', 'col-span-2', 'col-span-1' %}" href="{{post.url}}">
 
         <!-- Background image -->
-        <div class="bg-cover pb-[20vw]" style="background-image:url( '{{ post.featured_image }}' );"></div>
+        <div class="bg-cover min-h-[20vh] md:pb-[20vw]" style="background-image:url( '{{ post.featured_image }}' );"></div>
 
         <!-- Text container  -->
         <div>
