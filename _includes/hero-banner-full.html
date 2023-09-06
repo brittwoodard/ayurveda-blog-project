@@ -1,11 +1,11 @@
-<section>
-    <div class="bg-[url('{{page.banner.image_path | default: page.featured_image}}')]" style="background-position: {{page.banner.image_focus}}">
-        <div class="p-10p">
-            <h1 class="md:max-w-[80%] text-light">{{page.banner.heading | default: page.title}}</h1>
-            <p class="uppercase text-light md:max-w-xl text-2xl font-normal leading-normal">{{page.banner.description}}</p>
-            {% if page.banner.button.url and page.banner.button.text %}
-            <a href="{{page.banner.button.url}}">{{page.banner.button.text}}</a>
-            {% endif %}
-        </div>
+<section class="bg-[url('{{page.banner.image_path | default: page.featured_image}}')] bg-cover min-h-[85vh] flex items-center"
+    style="background-position: {{page.banner.image_focus}}">
+    <div class="p-10p">
+        <h1 class="md:max-w-[80%] text-light text-[20vw]">{{page.banner.heading | default: page.title}}</h1>
+        <p class="uppercase text-light md:max-w-xl text-lg md:text-2xl font-normal leading-normal">
+            {{page.banner.description}}</p>
+        {% if page.banner.button.url and page.banner.button.text %}
+        <a href="{{page.banner.button.url}}">{{page.banner.button.text}}</a>
+        {% endif %}
     </div>
 </section>

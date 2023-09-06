@@ -17,9 +17,9 @@ banner-style-indented: false
 {% endif %}
 
 <!-- Explore Products -->
-<section class="p-5p max-w-screen-xl mx-auto" x-data="{ filter: 'all' }">
+<section class="py-[20%] md:py-5p px-5p max-w-screen-xl mx-auto" x-data="{ filter: 'all' }">
 
-	<h2 class="text-center text-4xl mb-1 editable"> Shop all products </h2> 
+	<h2 class="text-center text-4xl mb-1 editable mt-16 md:mt-0"> Shop all products </h2> 
 
 	<div class="filter p-6 text-center"> 
 		<a href="#" class="shopify-button m-4" :class="{'active':filter === 'all'}" @click.prevent="filter = 'all'" >All</a>
@@ -27,7 +27,7 @@ banner-style-indented: false
         <a href="#" class="shopify-button m-4" :class="{'active':filter === 'course'}" @click.prevent="filter = 'course'">Courses</a>
 	</div>
 
-	<div class="grid grid-cols-3 gap-4">
+	<div class="grid md:grid-cols-3 gap-4">
 
 	{% assign all_products = site.products-guides | concat: site.products-courses | sort: 'title'  %}
 
