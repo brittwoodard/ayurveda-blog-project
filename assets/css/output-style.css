@@ -1873,6 +1873,12 @@ li h3 {
   .md\:col-span-9 {
     grid-column: span 9 / span 9;
   }
+  .md\:ml-8 {
+    margin-left: 2rem;
+  }
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
   .md\:flex {
     display: flex;
   }
@@ -1900,6 +1906,9 @@ li h3 {
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .md\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -1911,6 +1920,10 @@ li h3 {
   }
   .md\:bg-fixed {
     background-attachment: fixed;
+  }
+  .md\:py-5p {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .md\:text-2xl {
     font-size: 1.5rem;

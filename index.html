@@ -54,11 +54,11 @@ seo:
 
 <!-- About Blurb -->
 <!-- Mobile View -->
-<section class="sm:hidden pt-[20%] pb-5p bg-sand">
+<section class="sm:hidden pt-[20%] bg-sand">
   <h2 class="max-w-lg p-10p blurb-xs inline-block bg-medium">{{page.text_blurb.heading}}</h2>
   <div class="min-h-[50vh] mx-10p bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full -mt-[5.5rem]"></div>
   <div class="p-10p relative">
-    <p>{{page.text_blurb.description}}</p>
+    <p class="mb-0">{{page.text_blurb.description}}</p>
     <a href="{{page.text_blurb.button.url}}" class="button absolute -top-[35%] -right-[8%] rotate-90">{{ page.text_blurb.button.text }}</a>
   </div>
 </section>
@@ -75,11 +75,11 @@ seo:
 
 <!-- Upcoming Workshops -->
 <section class="p-10p border-t border-dark">
-  <h2 class="uppercase font-serif text-center text-5xl tracking-widest mb-16">
+  <h2 class="uppercase font-serif text-center text-5xl tracking-widest mb-0 md:mb-16">
     {{page.calendar.heading}}
   </h2>
-  <div class="grid grid-cols-2">
-    <div class="uppercase text-lg tracking-widest py-5p">
+  <div class="grid md:grid-cols-2">
+    <div class="uppercase text-lg tracking-widest py-10p md:py-5p">
       <ul class="border-t border-dark">
         {% for item in page.calendar.events %}
           <li class="border-b border-dark py-8 flex justify-between leading-[1.4em]">
@@ -89,7 +89,7 @@ seo:
         {% endfor %}
       </ul>
     </div>
-  <div class="relative bg-[url('{{page.calendar.image.image_path}}')] ml-8">
+  <div class="relative bg-[url('{{page.calendar.image.image_path}}')] md:ml-8 min-h-[50vh]">
     <div><span class="font-serif text-7xl tracking-wide bg-medium absolute bottom-4 left-0">{{page.calendar.image.overlay_text}}</span></div>
   </div>
 </div></section>
