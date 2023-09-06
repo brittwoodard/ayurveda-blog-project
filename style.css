@@ -108,6 +108,10 @@
         text-transform: initial;
     }
 
+    .blurb-xs {
+        @apply text-3xl font-serif text-left normal-case
+    }
+
     .bg-image-style {
         @apply bg-no-repeat bg-cover bg-center
     }
@@ -132,11 +136,11 @@
 }
 
 .mobile-button span {
-    @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
+    @apply w-[2rem] border border-accent bg-accent block rounded-[22px] transition duration-200
 }
 
 .mobile-button.active span {
-    @apply border border-dark bg-dark
+    @apply border border-accent bg-accent
 }
 
 .mobile-top,
@@ -167,7 +171,21 @@
 }
 
 .mobile-menu {
-    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 flex flex-col z-40 content-around justify-around transition duration-[1s] shadow-lg opacity-95
+    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition duration-[1s] ease-in-out shadow-lg opacity-95
+    /* display: flex;
+    position: fixed;
+    top: 0vh;
+    left:100vw;
+    right: -100vw;
+    bottom: 0vh;
+    background-color: #c8cbc4;
+    padding: 5%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 8;
+  transition:1s;
+    align-content:space-around;
+  justify-content:space-around;
+  flex-direction:column; */
 }
 
 .mobile-menu.active {
@@ -175,7 +193,7 @@
 }
 
 .mobile-menu a {
-    @apply uppercase text-xl text-center
+    @apply uppercase text-xl text-center block pt-[10vh] px-5p
 }
 
 .mobile-menu a:hover {

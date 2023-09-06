@@ -53,7 +53,18 @@ seo:
 {% endif %}
 
 <!-- About Blurb -->
-<section class="grid grid-cols-5 p-5p bg-sand">
+<!-- Mobile View -->
+<section class="sm:hidden pt-[20%] pb-5p bg-sand">
+  <h2 class="max-w-lg p-10p blurb-xs inline-block bg-medium">{{page.text_blurb.heading}}</h2>
+  <div class="min-h-[50vh] mx-10p bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full -mt-[5.5rem]"></div>
+  <div class="p-10p relative">
+    <p>{{page.text_blurb.description}}</p>
+    <a href="{{page.text_blurb.button.url}}" class="button absolute -top-[35%] -right-[8%] rotate-90">{{ page.text_blurb.button.text }}</a>
+  </div>
+</section>
+
+<!-- Show on md devices and larger -->
+<section class="hidden sm:grid grid-cols-5 p-5p bg-sand">
   <div class="col-span-2 bg-[url('{{page.text_blurb.image_path | default: page.featured_image}}')] min-h-full"></div>
   <div class="col-span-3 pl-8">
     <h2 class="max-w-lg py-16 -ml-[35%] mt-10p blurb bg-medium">{{page.text_blurb.heading}}</h2>

@@ -422,6 +422,13 @@ li h3 {
         text-align: center;
         text-transform: initial;
     }
+.blurb-xs {
+  text-align: left;
+  font-family: Italiana, serif;
+  font-size: 1.875rem;
+  line-height: 1;
+  text-transform: none;
+}
 .bg-image-style {
   background-size: cover;
   background-position: center;
@@ -1008,6 +1015,12 @@ li h3 {
 .top-\[50\%\] {
   top: 50%;
 }
+.-right-\[8\%\] {
+  right: -8%;
+}
+.-top-\[35\%\] {
+  top: -35%;
+}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -1052,6 +1065,10 @@ li h3 {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.mx-10p {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .-ml-\[35\%\] {
   margin-left: -35%;
@@ -1107,6 +1124,9 @@ li h3 {
 .mt-5p {
   margin-top: 5%;
 }
+.-mt-\[5\.5rem\] {
+  margin-top: -5.5rem;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1149,6 +1169,12 @@ li h3 {
 .h-full {
   height: 100%;
 }
+.h-\[50vh\] {
+  height: 50vh;
+}
+.min-h-50 {
+  min-height: 50vh;
+}
 .min-h-70 {
   min-height: 70vh;
 }
@@ -1163,6 +1189,9 @@ li h3 {
 }
 .min-h-full {
   min-height: 100%;
+}
+.min-h-\[50vh\] {
+  min-height: 50vh;
 }
 .w-1\/2 {
   width: 50%;
@@ -1193,6 +1222,10 @@ li h3 {
 }
 .shrink-0 {
   flex-shrink: 0;
+}
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1474,6 +1507,12 @@ li h3 {
 .pr-16 {
   padding-right: 4rem;
 }
+.pb-5p {
+  padding-bottom: 5%;
+}
+.pt-\[20\%\] {
+  padding-top: 20%;
+}
 .text-left {
   text-align: left;
 }
@@ -1514,8 +1553,8 @@ li h3 {
   font-size: 6rem;
   line-height: 1;
 }
-.text-\[20vh\] {
-  font-size: 20vh;
+.text-\[12vw\] {
+  font-size: 12vw;
 }
 .text-\[7vw\] {
   font-size: 7vw;
@@ -1645,9 +1684,9 @@ li h3 {
   border-radius: 22px;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(39 39 42 / var(--tw-border-opacity));
+  border-color: rgb(119 145 168 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(119 145 168 / var(--tw-bg-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -1658,9 +1697,9 @@ li h3 {
 .mobile-button.active span {
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(39 39 42 / var(--tw-border-opacity));
+  border-color: rgb(119 145 168 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+  background-color: rgb(119 145 168 / var(--tw-bg-opacity));
 }
 
 .mobile-top,
@@ -1704,10 +1743,6 @@ li h3 {
   right: -100vw;
   bottom: 0px;
   z-index: 40;
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  justify-content: space-around;
   --tw-bg-opacity: 1;
   background-color: rgb(213 209 205 / var(--tw-bg-opacity));
   padding: 1.25rem;
@@ -1718,9 +1753,9 @@ li h3 {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
   transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.active {
@@ -1729,6 +1764,10 @@ li h3 {
 }
 
 .mobile-menu a {
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10vh;
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -1811,6 +1850,12 @@ li h3 {
   .sm\:col-span-8 {
     grid-column: span 8 / span 8;
   }
+  .sm\:grid {
+    display: grid;
+  }
+  .sm\:hidden {
+    display: none;
+  }
   .sm\:columns-3 {
     -moz-columns: 3;
          columns: 3;
@@ -1830,6 +1875,12 @@ li h3 {
   }
   .md\:flex {
     display: flex;
+  }
+  .md\:grid {
+    display: grid;
+  }
+  .md\:hidden {
+    display: none;
   }
   .md\:w-96 {
     width: 24rem;
@@ -1860,6 +1911,10 @@ li h3 {
   }
   .md\:bg-fixed {
     background-attachment: fixed;
+  }
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 1.2;
   }
 }
 
