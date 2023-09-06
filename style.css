@@ -167,42 +167,19 @@
 }
 
 .mobile-menu {
-    display: flex;
-    position: fixed;
-    top: 0vh;
-    left: 100vw;
-    right: -100vw;
-    bottom: 0vh;
-    background-color: #c8cbc4;
-    padding: 5%;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-    z-index: 8;
-    transition: 1s;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-direction: column;
+    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 flex flex-col z-40 content-around justify-around transition duration-[1s] shadow-lg opacity-95
 }
 
 .mobile-menu.active {
-    left: 0;
-    right: 0;
+    @apply left-0 right-0
 }
 
 .mobile-menu a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: #86563c;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    display: block;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    white-space: nowrap;
-    text-transform: lowercase;
+    @apply uppercase text-xl text-center
 }
 
 .mobile-menu a:hover {
-    color: #707071;
+    @apply text-accent
 }
 
 

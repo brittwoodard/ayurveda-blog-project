@@ -1698,42 +1698,46 @@ li h3 {
 }
 
 .mobile-menu {
-    display: flex;
-    position: fixed;
-    top: 0vh;
-    left: 100vw;
-    right: -100vw;
-    bottom: 0vh;
-    background-color: #c8cbc4;
-    padding: 5%;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-    z-index: 8;
-    transition: 1s;
-    align-content: space-around;
-    justify-content: space-around;
-    flex-direction: column;
+  position: fixed;
+  top: 0px;
+  left: 100vw;
+  right: -100vw;
+  bottom: 0px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 209 205 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+  opacity: 0.95;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 1s;
 }
 
 .mobile-menu.active {
-    left: 0;
-    right: 0;
+  left: 0px;
+  right: 0px;
 }
 
 .mobile-menu a {
-    text-decoration: none;
-    font-size: 1.25rem;
-    font-weight: 300;
-    color: #86563c;
-    font-family: 'Alegreya Sans SC', sans-serif;
-    display: block;
-    padding: 0.5rem 1rem;
-    text-align: center;
-    white-space: nowrap;
-    text-transform: lowercase;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 .mobile-menu a:hover {
-    color: #707071;
+  --tw-text-opacity: 1;
+  color: rgb(119 145 168 / var(--tw-text-opacity));
 }
 
 
