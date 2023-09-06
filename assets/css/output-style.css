@@ -1127,6 +1127,12 @@ li h3 {
 .-mt-\[5\.5rem\] {
   margin-top: -5.5rem;
 }
+.mb-\[0\.5em\] {
+  margin-bottom: 0.5em;
+}
+.mb-\[1em\] {
+  margin-bottom: 1em;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1587,6 +1593,9 @@ li h3 {
   font-size: 0.75rem;
   line-height: 1.2;
 }
+.text-\[20vw\] {
+  font-size: 20vw;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1939,6 +1948,10 @@ li h3 {
   .md\:py-5p {
     padding-top: 5%;
     padding-bottom: 5%;
+  }
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .md\:pb-\[20vw\] {
     padding-bottom: 20vw;

@@ -23,8 +23,8 @@ seo:
 {% endif %}
 
 <!-- Blog Loop -->
-<section class="py-5p max-w-screen-2xl mx-auto">
-  <h2 class="serif tracking-wide uppercase text-4xl text-center mb-16 editable">Recently in the Article Collection</h2>
+<section class="py-10p px-5p md:px-0 max-w-screen-2xl mx-auto">
+  <h2 class="serif tracking-wide uppercase text-4xl text-center mb-[1em] editable">Recently in the Article Collection</h2>
   <div class="sm:columns-3">
       {% for post in site.posts limit:12 %}
           {% include post-loop-item-alternate.html %}
