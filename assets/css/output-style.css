@@ -1000,8 +1000,14 @@ li h3 {
 .-left-15p {
   left: -15%;
 }
+.-right-\[8\%\] {
+  right: -8%;
+}
 .-top-4 {
   top: -1rem;
+}
+.-top-\[35\%\] {
+  top: -35%;
 }
 .bottom-4 {
   bottom: 1rem;
@@ -1014,12 +1020,6 @@ li h3 {
 }
 .top-\[50\%\] {
   top: 50%;
-}
-.-right-\[8\%\] {
-  right: -8%;
-}
-.-top-\[35\%\] {
-  top: -35%;
 }
 .col-span-1 {
   grid-column: span 1 / span 1;
@@ -1041,6 +1041,10 @@ li h3 {
 }
 .m-4 {
   margin: 1rem;
+}
+.mx-10p {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .mx-5p {
   margin-left: 5%;
@@ -1066,12 +1070,11 @@ li h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mx-10p {
-  margin-left: 10%;
-  margin-right: 10%;
-}
 .-ml-\[35\%\] {
   margin-left: -35%;
+}
+.-mt-\[5\.5rem\] {
+  margin-top: -5.5rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -1097,8 +1100,8 @@ li h3 {
 .mb-\[0\.7rem\] {
   margin-bottom: 0.7rem;
 }
-.ml-8 {
-  margin-left: 2rem;
+.mb-\[1em\] {
+  margin-bottom: 1em;
 }
 .mr-1 {
   margin-right: 0.25rem;
@@ -1123,15 +1126,6 @@ li h3 {
 }
 .mt-5p {
   margin-top: 5%;
-}
-.-mt-\[5\.5rem\] {
-  margin-top: -5.5rem;
-}
-.mb-\[0\.5em\] {
-  margin-bottom: 0.5em;
-}
-.mb-\[1em\] {
-  margin-bottom: 1em;
 }
 .line-clamp-2 {
   overflow: hidden;
@@ -1175,17 +1169,17 @@ li h3 {
 .h-full {
   height: 100%;
 }
-.h-\[50vh\] {
-  height: 50vh;
-}
-.min-h-50 {
-  min-height: 50vh;
-}
 .min-h-70 {
   min-height: 70vh;
 }
 .min-h-80 {
   min-height: 80vh;
+}
+.min-h-\[20vh\] {
+  min-height: 20vh;
+}
+.min-h-\[50vh\] {
+  min-height: 50vh;
 }
 .min-h-\[60\] {
   min-height: 60;
@@ -1195,18 +1189,6 @@ li h3 {
 }
 .min-h-full {
   min-height: 100%;
-}
-.min-h-\[50vh\] {
-  min-height: 50vh;
-}
-.min-h-\[40vh\] {
-  min-height: 40vh;
-}
-.min-h-\[20vh\] {
-  min-height: 20vh;
-}
-.min-h-\[90vh\] {
-  min-height: 90vh;
 }
 .w-1\/2 {
   width: 50%;
@@ -1511,6 +1493,9 @@ li h3 {
 .pb-1\/1 {
   padding-bottom: 100%;
 }
+.pb-10p {
+  padding-bottom: 10%;
+}
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1526,20 +1511,8 @@ li h3 {
 .pr-16 {
   padding-right: 4rem;
 }
-.pb-5p {
-  padding-bottom: 5%;
-}
 .pt-\[20\%\] {
   padding-top: 20%;
-}
-.pr-10p {
-  padding-right: 10%;
-}
-.pr-5p {
-  padding-right: 5%;
-}
-.pb-10p {
-  padding-bottom: 10%;
 }
 .text-left {
   text-align: left;
@@ -1573,16 +1546,12 @@ li h3 {
   font-size: 3.75rem;
   line-height: 1;
 }
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
 }
-.text-\[12vw\] {
-  font-size: 12vw;
+.text-\[20vw\] {
+  font-size: 20vw;
 }
 .text-\[7vw\] {
   font-size: 7vw;
@@ -1602,9 +1571,6 @@ li h3 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1.2;
-}
-.text-\[20vw\] {
-  font-size: 20vw;
 }
 .font-bold {
   font-weight: 700;
@@ -1904,23 +1870,26 @@ li h3 {
   .md\:col-span-9 {
     grid-column: span 9 / span 9;
   }
-  .md\:ml-8 {
-    margin-left: 2rem;
-  }
   .md\:mb-16 {
     margin-bottom: 4rem;
+  }
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+  .md\:ml-8 {
+    margin-left: 2rem;
   }
   .md\:mt-0 {
     margin-top: 0px;
   }
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
   .md\:flex {
     display: flex;
-  }
-  .md\:grid {
-    display: grid;
-  }
-  .md\:hidden {
-    display: none;
   }
   .md\:w-96 {
     width: 24rem;
@@ -1937,11 +1906,11 @@ li h3 {
   .md\:max-w-xl {
     max-width: 36rem;
   }
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -1958,10 +1927,6 @@ li h3 {
   .md\:bg-fixed {
     background-attachment: fixed;
   }
-  .md\:py-5p {
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1969,6 +1934,10 @@ li h3 {
   .md\:py-10p {
     padding-top: 10%;
     padding-bottom: 10%;
+  }
+  .md\:py-5p {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .md\:pb-\[20vw\] {
     padding-bottom: 20vw;
