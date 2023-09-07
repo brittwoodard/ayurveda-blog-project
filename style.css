@@ -130,6 +130,10 @@
     @apply mb-4
 }
 
+.featured-gallery {
+    @apply overflow-x-auto flex-nowrap
+}
+
 /* Mobile Menu */
 .mobile-button {
     @apply fixed top-5p right-5p z-50 p-2
