@@ -1042,6 +1042,9 @@ li h3 {
 .m-4 {
   margin: 1rem;
 }
+.m-5p {
+  margin: 5%;
+}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
@@ -1190,6 +1193,15 @@ li h3 {
 .min-h-full {
   min-height: 100%;
 }
+.min-h-50 {
+  min-height: 50vh;
+}
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
+.min-h-\[30vh\] {
+  min-height: 30vh;
+}
 .w-1\/2 {
   width: 50%;
 }
@@ -1198,9 +1210,6 @@ li h3 {
 }
 .w-full {
   width: 100%;
-}
-.w-\[33\%\] {
-  width: 33%;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -1896,8 +1905,14 @@ li h3 {
   .md\:mt-0 {
     margin-top: 0px;
   }
+  .md\:block {
+    display: block;
+  }
   .md\:flex {
     display: flex;
+  }
+  .md\:hidden {
+    display: none;
   }
   .md\:w-96 {
     width: 24rem;
