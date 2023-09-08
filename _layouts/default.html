@@ -4,13 +4,13 @@
 <head>
 
     {% include head.html %}
-    
+
 </head>
 
 <body class="bg-medium">
 
     {% include inline-styles.html %}
-    
+
     {% include site-header.html %}
 
     {{content}}
@@ -20,16 +20,22 @@
     <!-- Alpine -->
     <script src="//unpkg.com/alpinejs" defer></script>
 
+    <!--------------------- Add jQuery -------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!-- Javascript  -->
     <script src="/main.js"></script>
 
-    <!-- Slick -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-
     <!-- Member Space -->
-    <script> var MemberSpace = window.MemberSpace || {"subdomain":"brittanys-web-dev"}; (function(d){ var s = d.createElement("script"); s.src = "https://cdn.memberspace.com/scripts/widgets.js"; var e = d.getElementsByTagName("script")[0]; e.parentNode.insertBefore(s,e); }(document)); </script>
+    <script> var MemberSpace = window.MemberSpace || { "subdomain": "brittanys-web-dev" }; (function (d) { var s = d.createElement("script"); s.src = "https://cdn.memberspace.com/scripts/widgets.js"; var e = d.getElementsByTagName("script")[0]; e.parentNode.insertBefore(s, e); }(document)); </script>
 
 
 </body>

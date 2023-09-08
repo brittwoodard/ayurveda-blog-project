@@ -125,31 +125,10 @@ seo:
 </section>
 
 <!-- Mobile Recent Posts -->
-<section class="px-5p md:px-0 py-[20%] md:py-10p bg-sand">
-  <h2 class="text-center">{{page.blog.heading}}</h2>
-
-  <div class="slider-container grid grid-cols-2">
-
-    {% assign featured_posts = site.posts | where: 'featured', true %}
-
-    {% for post in featured_posts limit: 3 %}
-
-      <div class="slider-item
-       {% cycle 'col-span-1', 'col-span-2', 'col-span-1' %}" href="{{post.url}}">
-
-        <!-- Background image -->
-        <div class="bg-cover pb-[20vw]" style="background-image:url( '{{ post.featured_image }}' );"></div>
-
-        <!-- Text container  -->
-        <div>
-          <h3 class="text-2xl text-left font-sans my-4">
-            {{post.title}}
-          </h3>
-          <p class="leading-relaxed mb-4 line-clamp-3">
-            {{post.description}}</p>
-          <a href="{{post.url}}" class="button">{{page.blog.button.text}}</a>
-        </div>
-      </div>
-    {% endfor %}
+<section>
+  <div class="slider-container">
+    <div class="slider-item">1</div>
+    <div class="slider-item">2</div>
+    <div class="slider-item">3</div>
   </div>
 </section>
