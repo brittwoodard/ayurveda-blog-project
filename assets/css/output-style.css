@@ -1181,6 +1181,9 @@ li h3 {
 .min-h-\[20vh\] {
   min-height: 20vh;
 }
+.min-h-\[30vh\] {
+  min-height: 30vh;
+}
 .min-h-\[50vh\] {
   min-height: 50vh;
 }
@@ -1192,15 +1195,6 @@ li h3 {
 }
 .min-h-full {
   min-height: 100%;
-}
-.min-h-50 {
-  min-height: 50vh;
-}
-.min-h-\[40vh\] {
-  min-height: 40vh;
-}
-.min-h-\[30vh\] {
-  min-height: 30vh;
 }
 .w-1\/2 {
   width: 50%;
