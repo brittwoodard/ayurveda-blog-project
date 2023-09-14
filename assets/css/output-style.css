@@ -365,6 +365,10 @@ footer h2 {
   line-height: 1.2;
   text-transform: uppercase;
 }
+footer a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(119 145 168 / var(--tw-text-opacity));
+}
 li h3 {
   text-align: left;
 }
@@ -401,6 +405,10 @@ li h3 {
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+.button:hover {
+  --tw-text-opacity: 1;
+  color: rgb(119 145 168 / var(--tw-text-opacity));
 }
 .shopify-button {
   display: inline-block;
@@ -1130,6 +1138,9 @@ li h3 {
 .mt-5p {
   margin-top: 5%;
 }
+.-ml-5p {
+  margin-left: -5%;
+}
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1496,6 +1507,10 @@ li h3 {
   padding-top: 20%;
   padding-bottom: 20%;
 }
+.py-15p {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
 .pb-1\/1 {
   padding-bottom: 100%;
 }
@@ -1519,6 +1534,15 @@ li h3 {
 }
 .pt-\[20\%\] {
   padding-top: 20%;
+}
+.pt-15p {
+  padding-top: 15%;
+}
+.pb-15p {
+  padding-bottom: 15%;
+}
+.pl-5p {
+  padding-left: 5%;
 }
 .text-left {
   text-align: left;
@@ -1868,6 +1892,13 @@ li h3 {
     -moz-columns: 3;
          columns: 3;
   }
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 1;
@@ -1956,6 +1987,10 @@ li h3 {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
   .md\:pb-\[20vw\] {
     padding-bottom: 20vw;
   }
@@ -1970,11 +2005,36 @@ li h3 {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
   .lg\:flex {
     display: flex;
   }
   .lg\:hidden {
     display: none;
+  }
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .lg\:p-0 {
+    padding: 0px;
+  }
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
+  .lg\:pt-0 {
+    padding-top: 0px;
+  }
+  .lg\:pl-10p {
+    padding-left: 10%;
   }
 }
 

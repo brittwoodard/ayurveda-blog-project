@@ -71,6 +71,10 @@
         @apply text-xl uppercase
     }
 
+    footer a:hover {
+        @apply text-accent
+    }
+
     li h3 {
         @apply text-left
     }
@@ -86,6 +90,10 @@
 
     .button {
         @apply uppercase font-serif mb-4 inline-block border-b border-dark tracking-widest text-2xl
+    }
+
+    .button:hover {
+        @apply text-accent
     }
 
     .button-2 {
