@@ -1050,9 +1050,6 @@ li h3 {
 .m-4 {
   margin: 1rem;
 }
-.m-5p {
-  margin: 5%;
-}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
@@ -1060,6 +1057,10 @@ li h3 {
 .mx-5p {
   margin-left: 5%;
   margin-right: 5%;
+}
+.mx-\[0\.4rem\] {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -1081,13 +1082,8 @@ li h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.mx-\[0\.4rem\] {
-  margin-left: 0.4rem;
-  margin-right: 0.4rem;
+.-ml-5p {
+  margin-left: -5%;
 }
 .-ml-\[35\%\] {
   margin-left: -35%;
@@ -1145,9 +1141,6 @@ li h3 {
 }
 .mt-5p {
   margin-top: 5%;
-}
-.-ml-5p {
-  margin-left: -5%;
 }
 .line-clamp-2 {
   overflow: hidden;
@@ -1265,9 +1258,6 @@ li h3 {
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1342,6 +1332,9 @@ li h3 {
 }
 .border-2 {
   border-width: 2px;
+}
+.border {
+  border-width: 1px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -1515,10 +1508,6 @@ li h3 {
   padding-top: 20%;
   padding-bottom: 20%;
 }
-.py-15p {
-  padding-top: 15%;
-  padding-bottom: 15%;
-}
 .pb-1\/1 {
   padding-bottom: 100%;
 }
@@ -1531,8 +1520,8 @@ li h3 {
 .pb-\[20vw\] {
   padding-bottom: 20vw;
 }
-.pl-10p {
-  padding-left: 10%;
+.pl-5p {
+  padding-left: 5%;
 }
 .pl-8 {
   padding-left: 2rem;
@@ -1540,17 +1529,11 @@ li h3 {
 .pr-16 {
   padding-right: 4rem;
 }
-.pt-\[20\%\] {
-  padding-top: 20%;
-}
 .pt-15p {
   padding-top: 15%;
 }
-.pb-15p {
-  padding-bottom: 15%;
-}
-.pl-5p {
-  padding-left: 5%;
+.pt-\[20\%\] {
+  padding-top: 20%;
 }
 .text-left {
   text-align: left;
@@ -1903,10 +1886,6 @@ li h3 {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .sm\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 1;
@@ -1995,10 +1974,6 @@ li h3 {
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
   .md\:pb-\[20vw\] {
     padding-bottom: 20vw;
   }
@@ -2013,14 +1988,14 @@ li h3 {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mt-0 {
-    margin-top: 0px;
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
   .lg\:ml-0 {
     margin-left: 0px;
   }
-  .lg\:mb-0 {
-    margin-bottom: 0px;
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
   .lg\:flex {
     display: flex;
@@ -2034,21 +2009,11 @@ li h3 {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .lg\:p-0 {
-    padding: 0px;
-  }
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .lg\:pb-0 {
-    padding-bottom: 0px;
+  .lg\:pl-10p {
+    padding-left: 10%;
   }
   .lg\:pt-0 {
     padding-top: 0px;
-  }
-  .lg\:pl-10p {
-    padding-left: 10%;
   }
 }
 
