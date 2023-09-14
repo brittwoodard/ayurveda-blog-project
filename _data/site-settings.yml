@@ -18,7 +18,7 @@ navigation:
     title: "Article Collection"
   - url: /shop
     title: "Shop"
-  - url: "https://sleepy-anteater.cloudvent.net/members-area"
+  - url: "/members-area.html"
     title: "Member's Login"
 design:
   dark-text_color: "rgb(60,60,65)"

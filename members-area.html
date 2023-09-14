@@ -23,7 +23,7 @@ members-content:
 <section class="min-h-80 px-5p grid grid-cols-4 divide-x divide-dark">
     <div class="col-span-1 py-16">
         {% for item in page.members-content %}
-        <a href="#{{item.title | slugify}}" class="block mb-4">{{item.title}}</a>
+        <a href="#{{item.title | slugify}}" class="block mb-4 hover:text-accent">{{item.title}}</a>
         {% endfor %}
     </div>
 

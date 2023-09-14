@@ -3,20 +3,20 @@ layout: default
 ---
 
 <!-- Header -->
-<section class="grid grid-cols-2 items-end">
-	<div class="col-span-1 px-15p">
-		<h1 class="text-6xl">{{page.title}}</h1>
-		<h2 class="font-sans text-xl text-left tracking-widest mb-8">{{page.subtitle}}</h2>
-		<p class="mb-8">{{page.description_html}}</p>
-		<a href="#" class="shopify-button">Buy Now</a>
-	</div>
-	<div class="col-span-1 min-h-70" style="background-image:url('{{page.featured_image}}');"></div>
+<section class="grid sm:grid-cols-2 items-end">
+    <div class="col-span-1 px-15p pt-15p lg:pt-0">
+        <h1 class="text-6xl">{{page.title}}</h1>
+        <h2 class="font-sans text-xl text-left tracking-widest mb-8">{{page.subtitle}}</h2>
+        <p class="mb-8 editable">{{page.description_html}}</p>
+        {% include buy-button.html buy-button-id=page.buy-button-id %}
+    </div>
+    <div class="col-span-1 h-full" style="background-image:url('{{page.featured_image}}');"></div>
 </section>
 
 <!-- Features -->
 <section class="p-10p">
 	<h2 class="text-center">What's Included</h2>
-	<div class="grid grid-cols-3 gap-8">
+	<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 		{% for item in page.features %}
 		<div>
 			<h3 class="mt-4">{{item.heading}}</h3>
@@ -27,8 +27,8 @@ layout: default
 </section>
 
 <!-- How To -->
-<section class="grid grid-cols-3 max-w-screen-xl mx-auto p-10p bg-sand">
-	<div class="col-span-1 pr-16 self-center">
+<section class="grid lg:grid-cols-3 max-w-screen-xl mx-auto p-10p bg-sand">
+	<div class="col-span-1 pr-16 self-center mb-4 lg:mb-0">
 		<h2 class="text-4xl">Learn From Home</h2>
 		<p>Experience the convenience and flexibility of learning from the comfort of your home with our pre-recorded lessons. Enjoy the freedom to study at your own pace, review materials as needed, and fit your education seamlessly into your busy schedule. Embrace an immersive and personalized learning experience without the constraints of traditional classroom settings. Whether it's early mornings or late nights, our pre-recorded lessons allow you to unlock knowledge and growth on your terms.</p>
 	</div>
