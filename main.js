@@ -12,11 +12,13 @@ $(document).ready(function () {
 // Slick Slider
 $(document).ready(function () {
   $('.slider-container').slick({
+    autoplay: true,
+    pauseOnHover: false,
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     centerMode: true,
-    variableWidth: true
+    variableWidth: false
   });
 });

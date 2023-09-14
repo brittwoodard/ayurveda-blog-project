@@ -1081,6 +1081,14 @@ li h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-\[0\.4rem\] {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}
 .-ml-\[35\%\] {
   margin-left: -35%;
 }
