@@ -1330,11 +1330,11 @@ li h3 {
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.border-2 {
-  border-width: 2px;
-}
 .border {
   border-width: 1px;
+}
+.border-2 {
+  border-width: 2px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -1815,11 +1815,11 @@ li h3 {
 
 /* Members Area Styles */
 #memberspace-login-form input {
-    border: 2px solid blue;
+    border: 2px solid #7791a8;
 }
 
 #memberspace-login-form label {
-    border: 2px solid yellow;
+    border: 2px solid #7791a8;
 }
 
 /* Forgot Email / forgot password text */
@@ -1833,7 +1833,7 @@ li h3 {
 }
 
 #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-secondary {
-    color: blue;
+    color: #7791a8;
 }
 
 .MemberSpaceWidgetInternal__BrandedInterface_footer {
