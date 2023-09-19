@@ -1330,6 +1330,9 @@ li h3 {
 .rounded-lg {
   border-radius: 0.5rem;
 }
+.border {
+  border-width: 1px;
+}
 .border-2 {
   border-width: 2px;
 }
@@ -1567,9 +1570,6 @@ li h3 {
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
-}
-.text-\[12vw\] {
-  font-size: 12vw;
 }
 .text-\[20vw\] {
   font-size: 20vw;
