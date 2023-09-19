@@ -225,11 +225,11 @@
 
 /* Members Area Styles */
 #memberspace-login-form input {
-    border: 2px solid #7791a8;
+    border: 2px solid blue;
 }
 
 #memberspace-login-form label {
-    border: 2px solid #7791a8;
+    border: 2px solid yellow;
 }
 
 /* Forgot Email / forgot password text */
@@ -243,7 +243,7 @@
 }
 
 #memberspace-login-form .MemberSpaceWidgetInternal__Button_variant-secondary {
-    color: #7791a8;
+    color: blue;
 }
 
 .MemberSpaceWidgetInternal__BrandedInterface_footer {
