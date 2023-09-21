@@ -1842,32 +1842,31 @@ li h3 {
     display: none;
 }
 
+/* Sticky login  */
+ms-button.MemberSpaceWidgetInternal__Button_root:nth-child(2) {
+    display: none;
+    }
 .hover\:bg-zinc-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
-
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(119 145 168 / var(--tw-text-opacity));
 }
-
 .hover\:text-rose-500:hover {
   --tw-text-opacity: 1;
   color: rgb(244 63 94 / var(--tw-text-opacity));
 }
-
 .group:hover .group-hover\:grayscale {
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
-
 @media not all and (min-width: 640px) {
   .max-sm\:hidden {
     display: none;
   }
 }
-
 @media (min-width: 640px) {
   .sm\:col-span-4 {
     grid-column: span 4 / span 4;
@@ -1893,7 +1892,6 @@ li h3 {
     line-height: 1;
   }
 }
-
 @media (min-width: 768px) {
   .md\:col-span-3 {
     grid-column: span 3 / span 3;
@@ -1988,7 +1986,6 @@ li h3 {
     line-height: 1;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:mb-0 {
     margin-bottom: 0px;
@@ -2018,7 +2015,6 @@ li h3 {
     padding-top: 0px;
   }
 }
-
 .\[\&\>\=\*\:nth-child\(2\)\]\:col-span-2>=*:nth-child(2) {
   grid-column: span 2 / span 2;
 }
