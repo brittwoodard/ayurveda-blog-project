@@ -7,15 +7,15 @@ layout: default
 
 <!-- Post -->
 <section>
-    <div class="flex justify-between items-center px-10p py-5p">
+    <div class="md:flex justify-between items-center px-10p py-5p">
         <div>
-            <p class="mb-0">{{page.date | date_to_string}}</p>
+            <p class="mb-0 text-center md:text-left">{{page.date | date_to_string}}</p>
         </div>
         <div>
-            <h2 class="mb-0 text-4xl leading-[1.2em] text-center">{{page.title}}</h2>
+            <h2 class="my-[0.5em] md:mb-0 text-2xl sm:text-4xl leading-5 text-center">{{page.title}}</h2>
         </div>
         <div>
-            <p class="mb-0">by {{page.author}}</p>
+            <p class="mb-0 text-center md:text-right">by {{page.author}}</p>
         </div>
     </div>
     <hr class="border-t border-dark">

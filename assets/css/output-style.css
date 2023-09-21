@@ -1084,6 +1084,10 @@ li h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my-\[0\.5em\] {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 .-ml-5p {
   margin-left: -5%;
 }
@@ -1628,6 +1632,9 @@ li h3 {
 .leading-relaxed {
   line-height: 1.625;
 }
+.leading-5 {
+  line-height: 1.25rem;
+}
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1891,6 +1898,10 @@ ms-button.MemberSpaceWidgetInternal__Button_root:nth-child(2) {
     font-size: 1.875rem;
     line-height: 1;
   }
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 1;
+  }
 }
 @media (min-width: 768px) {
   .md\:col-span-3 {
@@ -1977,6 +1988,12 @@ ms-button.MemberSpaceWidgetInternal__Button_root:nth-child(2) {
   .md\:pb-\[20vw\] {
     padding-bottom: 20vw;
   }
+  .md\:text-left {
+    text-align: left;
+  }
+  .md\:text-right {
+    text-align: right;
+  }
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 1.2;
@@ -2007,6 +2024,9 @@ ms-button.MemberSpaceWidgetInternal__Button_root:nth-child(2) {
   }
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .lg\:pl-10p {
     padding-left: 10%;
