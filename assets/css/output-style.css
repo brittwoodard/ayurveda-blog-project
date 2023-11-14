@@ -1894,6 +1894,9 @@ ms-button.MemberSpaceWidgetInternal__Button_root:nth-child(2) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 1;

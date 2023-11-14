@@ -14,7 +14,7 @@ members-content:
 {% include hero-banner-members.html %}
 
 <!-- Members Area -->
-<section class="min-h-80 px-5p grid grid-cols-4 divide-x divide-dark">
+<section class="min-h-80 px-5p grid sm:grid-cols-4 divide-x divide-dark">
     <div class="col-span-1 py-16">
         {% for item in page.members-content %}
         <a href="#{{item.title | slugify}}" class="block mb-4 mr-4 hover:text-accent">{{item.title}}</a>
