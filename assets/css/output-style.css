@@ -1577,6 +1577,9 @@ li h3 {
   font-size: 6rem;
   line-height: 1;
 }
+.text-\[13vw\] {
+  font-size: 13vw;
+}
 .text-\[20vw\] {
   font-size: 20vw;
 }
@@ -1614,11 +1617,11 @@ li h3 {
 .capitalize {
   text-transform: capitalize;
 }
+.leading-5 {
+  line-height: 1.25rem;
+}
 .leading-\[0\.9\] {
   line-height: 0.9;
-}
-.leading-\[1\.2em\] {
-  line-height: 1.2em;
 }
 .leading-\[1\.4em\] {
   line-height: 1.4em;
@@ -1631,9 +1634,6 @@ li h3 {
 }
 .leading-relaxed {
   line-height: 1.625;
-}
-.leading-5 {
-  line-height: 1.25rem;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
